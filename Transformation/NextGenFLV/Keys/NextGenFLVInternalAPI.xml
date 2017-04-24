@@ -1,0 +1,8 @@
+<data>
+  <nodes>
+    <_parameter _name="verisk-next-gen-fl-v-filings-source" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.FLV.FilingsSource']/@value" />
+    <_parameter _name="verisk-next-gen-fl-v-pcr-source" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.FLV.PcrSource']/@value" />
+    <_parameter _name="identity-server-base-url" _xpath="//configuration/appSettings/add[@key='IdentityServer.BaseUrl']/@value" />
+	<_parameter _name="verisk-next-gen-flv-pcr-download-source" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.FLV.PcrDownloadSource']/@value" />
+  </nodes>
+</data>

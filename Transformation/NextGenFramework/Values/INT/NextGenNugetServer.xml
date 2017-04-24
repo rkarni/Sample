@@ -1,0 +1,13 @@
+<data>
+    <include path="..\..\Keys\NextGenNugetServer.xml" />
+
+    <values>
+    <require-api-key>true</require-api-key>
+    <api-key></api-key>
+    <packages-path></packages-path>
+    <allow-override-existing-package-on-push>false</allow-override-existing-package-on-push>
+    <ignore-symbols-packages>true</ignore-symbols-packages>
+    <enable-delisting>false</enable-delisting>
+    <enable-framework-filtering>false</enable-framework-filtering>
+  </values>
+</data>

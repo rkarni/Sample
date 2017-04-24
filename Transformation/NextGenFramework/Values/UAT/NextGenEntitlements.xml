@@ -1,0 +1,30 @@
+<data>
+    <include path="..\..\Keys\NextGenEntitlements.xml" />
+
+    <values>
+    <master-data-base-url>https://isonetsvca.iso.com/</master-data-base-url>
+    <cl-m-srvc-types-url>clmaccesssvc/clmGetUserEntitledServiceTypes/</cl-m-srvc-types-url>
+    <cl-m-lo-b-url>clmaccesssvc/clmGetUserEntitledLOBs/</cl-m-lo-b-url>
+    <cl-m-juris-url>clmaccesssvc/clmGetUserEntitledStatesJurs/</cl-m-juris-url>
+    <circular-s-srvc-types-url>circaccesssvc/circularsGetUserEntitledCircServiceTypes/</circular-s-srvc-types-url>
+    <circular-s-lo-b-url>circaccesssvc/circularsGetUserEntitledCircLOBs/</circular-s-lo-b-url>
+    <circular-s-juris-url>circaccesssvc/circularsGetUserEntitledCircStatesJurs/</circular-s-juris-url>
+    <fl-v-srvc-types-url>flvAccessSvc/FLVGetUserEntitledServiceTypes/</fl-v-srvc-types-url>
+    <fl-v-lo-b-url>flvAccessSvc/FLVGetUserEntitledCommercialLOBs/</fl-v-lo-b-url>
+    <fl-v-personal-lo-b-url>flvAccessSvc/FLVGetUserEntitledPersonalLOBs/</fl-v-personal-lo-b-url>
+    <fl-v-juris-url>flvAccessSvc/FLVGetUserEntitledStatesJurs/</fl-v-juris-url>
+    <pr-m-srvc-types-url>plmaccesssvc/plmGetUserEntitledServiceTypes/</pr-m-srvc-types-url>
+    <pr-m-lo-b-url>plmaccesssvc/plmGetUserEntitledLOBs/</pr-m-lo-b-url>
+    <pr-m-juris-url>plmaccesssvc/plmGetUserEntitledStatesJurs/</pr-m-juris-url>
+    <form-s-lo-b-url>formaccesssvc/getUserEntitledLinesOfBusinesses/</form-s-lo-b-url>
+    <form-s-juris-url>formaccesssvc/getUserEntitledJurisdictions/</form-s-juris-url>
+    <lmo-n-lo-b-url>lmonaccesssvc/getUserEntitledLinesOfBusinesses/</lmo-n-lo-b-url>
+    <is-auditing-enabled>true</is-auditing-enabled>
+    <serilog-minimum-level>sDebug</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:\Logs\Entitlements\Entitlements-write-to-rolling-file-path-format-{Date}.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>10</serilog-write-to-rolling-file-retained-file-count-limit>
+    <serilog-error>D:\Logs\Entitlements\Entitlements-Error-Log-{Date}.log</serilog-error>
+    <serilog-audit>D:\Logs\Entitlements\Entitlements-Audit-Log-{Date}.log</serilog-audit>
+    <serilog-main>D:\Logs\Entitlements\Entitlements-Main-Log-{Date}.log</serilog-main>
+  </values>
+</data>

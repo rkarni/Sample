@@ -1,0 +1,12 @@
+<data>
+    <include path="..\..\Keys\NextGenSiteCatalyst.xml" />
+
+    <values>
+    <serilog-minimum-level>Debug</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:\Logs\SiteCatalyst\SiteCatalyst-write-to-rolling-file-path-format-{Date}.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>10</serilog-write-to-rolling-file-retained-file-count-limit>
+    <serilog-error>D:\Logs\SiteCatalyst\SiteCatalyst-Serilog-Error-{Date}.log</serilog-error>
+    <serilog-audit>D:\Logs\SiteCatalyst\SiteCatalyst-Serilog-Audit-{Date}.log</serilog-audit>
+    <serilog-main>D:\Logs\SiteCatalyst\SiteCatalyst-Serilog-Main-{Date}.log</serilog-main>
+  </values>
+</data>

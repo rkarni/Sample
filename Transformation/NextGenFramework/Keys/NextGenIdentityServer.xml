@@ -1,0 +1,44 @@
+<data>
+  <nodes>
+    <_parameter _name="identity-db-name" _xpath="//configuration/appSettings/add[@key='IdentityDBName']/@value" />
+    <_parameter _name="serilog-minimum-level" _xpath="//configuration/appSettings/add[@key='serilog:minimum-level']/@value" />
+    <_parameter _name="formaccesssvc" _xpath="//configuration/appSettings/add[@key='formaccesssvc']/@value" />
+    <_parameter _name="isoauthsvc" _xpath="//configuration/appSettings/add[@key='isoauthsvc']/@value" />
+    <_parameter _name="isouserprofilesvc" _xpath="//configuration/appSettings/add[@key='isouserprofilesvc']/@value" />
+    <_parameter _name="isousersvc" _xpath="//configuration/appSettings/add[@key='isousersvc']/@value" />
+    <_parameter _name="next-gen-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.BaseUrl']/@value" />
+    <_parameter _name="forgot-password-link" _xpath="//configuration/appSettings/add[@key='ForgotPasswordLink']/@value" />
+    <_parameter _name="registration-instructions" _xpath="//configuration/appSettings/add[@key='RegistrationInstructions']/@value" />
+    <_parameter _name="iso-corporate-home" _xpath="//configuration/appSettings/add[@key='ISOCorporateHome']/@value" />
+    <_parameter _name="terms-and-conditions" _xpath="//configuration/appSettings/add[@key='TermsAndConditions']/@value" />
+    <_parameter _name="privacy-notice" _xpath="//configuration/appSettings/add[@key='PrivacyNotice']/@value" />
+    <_parameter _name="contact-us" _xpath="//configuration/appSettings/add[@key='ContactUs']/@value" />
+    <_parameter _name="next-gen-identity-server-public-origin" _xpath="//configuration/appSettings/add[@key='NextGen.IdentityServer.PublicOrigin']/@value" />
+    <_parameter _name="next-gen-identity-server-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.IdentityServer.BaseUrl']/@value" />
+    <_parameter _name="next-gen-pc-dev-clien-id" _xpath="//configuration/appSettings/add[@key='NextGen.pcDev.ClienID']/@value" />
+    <_parameter _name="next-gen-pc-dev-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.pcDev.BaseUrl']/@value" />
+    <_parameter _name="next-gen-identity-server-csp-url" _xpath="//configuration/appSettings/add[@key='NextGen.IdentityServer.CspUrl']/@value" />
+    <_parameter _name="next-gen-sample-app-client-id" _xpath="//configuration/appSettings/add[@key='NextGen.SampleApp.ClientID']/@value" />
+    <_parameter _name="next-gen-sample-app-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.SampleApp.BaseUrl']/@value" />
+    <_parameter _name="next-gen-product1-client-id" _xpath="//configuration/appSettings/add[@key='NextGen.Product1.ClientID']/@value" />
+    <_parameter _name="next-gen-product1-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.Product1.BaseUrl']/@value" />
+    <_parameter _name="next-gen-product2-client-id" _xpath="//configuration/appSettings/add[@key='NextGen.Product2.ClientID']/@value" />
+    <_parameter _name="next-gen-product2-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.Product2.BaseUrl']/@value" />
+    <_parameter _name="sign-in-message-threshold" _xpath="//configuration/appSettings/add[@key='SignInMessageThreshold']/@value" />
+    <_parameter _name="next-gen-angular-client-client-id" _xpath="//configuration/appSettings/add[@key='NextGen.AngularClient.ClientID']/@value" />
+    <_parameter _name="next-gen-angular-client-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.AngularClient.BaseUrl']/@value" />
+    <_parameter _name="next-gen-fl-v-client-id" _xpath="//configuration/appSettings/add[@key='NextGen.FLV.ClientID']/@value" />
+    <_parameter _name="next-gen-fl-v-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.FLV.BaseUrl']/@value" />
+    <_parameter _name="next-gen-ei-light-web-client-name" _xpath="//configuration/appSettings/add[@key='NextGen.EILightWeb.ClientName']/@value" />
+    <_parameter _name="next-gen-ei-light-web-client-id" _xpath="//configuration/appSettings/add[@key='NextGen.EILightWeb.ClientID']/@value" />
+    <_parameter _name="next-gen-ei-light-web-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.EILightWeb.BaseUrl']/@value" />
+    <_parameter _name="next-gen-ei-portal-client-name" _xpath="//configuration/appSettings/add[@key='NextGen.EIPortal.ClientName']/@value" />
+    <_parameter _name="next-gen-ei-portal-client-id" _xpath="//configuration/appSettings/add[@key='NextGen.EIPortal.ClientID']/@value" />
+    <_parameter _name="next-gen-ei-portal-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.EIPortal.BaseUrl']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-path-format" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.pathFormat']/@value" />
+    <_parameter _name="serilog-error" _xpath="//configuration/appSettings/add[@key='Serilog.Error']/@value" />
+    <_parameter _name="serilog-audit" _xpath="//configuration/appSettings/add[@key='Serilog.Audit']/@value" />
+    <_parameter _name="serilog-main" _xpath="//configuration/appSettings/add[@key='Serilog.Main']/@value" />
+    <_parameter _name="idsvr-3-config" _xpath="//configuration/connectionStrings/add[@name='IdSvr3Config']/@connectionString" _encrypted="true" />
+  </nodes>
+</data>

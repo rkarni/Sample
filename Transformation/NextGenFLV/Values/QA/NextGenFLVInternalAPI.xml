@@ -1,0 +1,10 @@
+<data>
+    <include path="..\..\Keys\NextGenFLVInternalAPI.xml" />
+
+    <values>
+        <verisk-next-gen-fl-v-filings-source>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/flv-internal/filings.json</verisk-next-gen-fl-v-filings-source>
+        <verisk-next-gen-fl-v-pcr-source>https://pcr-uat.iso.com/pcr-rest-api/V3/</verisk-next-gen-fl-v-pcr-source>
+        <identity-server-base-url>https://idq.iso.com/identity</identity-server-base-url>
+		<verisk-next-gen-flv-pcr-download-source>https://pcr-uat.iso.com/pcr-rest-api/V2.1/</verisk-next-gen-flv-pcr-download-source>
+	</values>
+</data>

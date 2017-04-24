@@ -1,0 +1,33 @@
+<data>
+    <include path="..\..\Keys\NextGenEIPortalInternalAPI.xml" />
+
+    <values>
+    <pcr>on</pcr>
+    <pcr-debugging>off</pcr-debugging>
+    <serilog-minimum-level>Debug</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:/Logs/EIPortalInternalAPI/EIPortalInternalAPI-{Date}-write-to-rolling-file-path-format.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>null</serilog-write-to-rolling-file-retained-file-count-limit>
+    <serilog-error>D:/Logs/EIPortalInternalAPI/EIPortalInternalAPI-{Date}-serilog-error.log</serilog-error>
+    <serilog-audit>D:/Logs/EIPortalInternalAPI/EIPortalInternalAPI-{Date}-serilog.audit.log</serilog-audit>
+    <serilog-main>D:/Logs/EIPortalInternalAPI/EIPortalInternalAPI-{Date}-serilog-main.log</serilog-main>
+    <pcr-base-url>https://pcr-uat.iso.com/pcr-rest-api/</pcr-base-url>
+    <pcr-insert-url>https://pcr-uat.iso.com/pcr-update-api/V2.1/CreateMessage/</pcr-insert-url>
+    <file-storage-api-base-url>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/ng-api/filestorage/api/v1/FileStorage/S3/</file-storage-api-base-url>
+    <file-storage-timeout>00:00:10:00</file-storage-timeout>
+    <topic-post-fix>/topic/{id}</topic-post-fix>
+    <post-post-fix>/homepage/post/{id}</post-post-fix>
+    <landing-post-fix>/page/{id}</landing-post-fix>
+    <weekly-digest-post-fix>/weekly-digest/{id}</weekly-digest-post-fix>
+    <ei-portal-ui>https://isoq.iso.com/ei</ei-portal-ui>
+    <aws-profile-name>PC-S3-ACCESSID-NP</aws-profile-name>
+    <aws-bucket-name>eilight-perf</aws-bucket-name>
+    <aws-access-key>AKIAJOHGFXKEEUN2MHSA</aws-access-key>
+    <aws-secret-key>76492d1116743f0423413b16050a5345MgB8AFIAQgAxAFoAbQBKAEkAYQBDAE8AZQBlAGsAbwBoAFEAcgBuAGwAZgA3AHcAPQA9AHwAOABjAGYAZgA4AGYANgAzADUANgBkAGIAYQAyADcAMgA3ADYAMwBhAGYAMgBhADkAZgA4ADYAZAAzADQANgBmADQAYQA1ADQANQBhAGYAZAA2ADAANQAxADQAOQA2ADQAOQAzAGQAMQA5ADYAOAAyAGUAOAA0ADQAMgBhADIAYwBkAGMANwAyAGYANgAyADkAYwBmAGQAZQBiADgAOAAxADIAMABiAGUAYgAwADcANAA1ADcAYQAzAGEAYQA1ADUAMAA4AGIAMQAwADkAMwA4ADEAMwAxADkAOQAyADUAMgBiAGYAMwBmAGEANAA2AGQANwBlADYANAA2ADMANwBhADMAOQA0ADUAMwA3AGYAOABlAGQAZgAyADMAZgBkAGIANQAzADUAMwA2ADgAOQAwADYANgA1ADUAOAA0AGIANgA2ADEAZgA3ADAANgAwADUAMQA0ADEAYwBjAGEAMAAzADkAYQBkAGYANgAwADQANQA1ADEAZgAxADMAYwBjAGEA</aws-secret-key>
+    <file-storage-error-image>/src/images/34px_ISO-VIS_globe_KO.png</file-storage-error-image>
+    <email-api-url>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/ng-api/email/api/v1/SmtpEmailSender</email-api-url>
+    <contact-us-reciever-key>I98037@verisk.com</contact-us-reciever-key>
+    <default-sender-email-key>logged_in_user_email@gmail.com</default-sender-email-key>
+    <default-connection>76492d1116743f0423413b16050a5345MgB8ADkAcAAvADMAZwA4AEMAbgBuADgAQgBNAFUATgB1AHAAMwBtAHYAbAB5AEEAPQA9AHwAMQA1AGUAYwBhADgAYwAyADgAMgA4ADMANgAyAGYAMgA5ADEAYgA5ADgAMgAxAGIAYgA3ADcANQA1AGQAOQAzADMAZgA3ADUAMgAxADYANABlAGMAOABjAGYAMAAyADAAOQA3ADIAOAA2ADQAZgBiAGYANABiADAAOAA5ADQAYQBhAGMANgBhADgAZQA0AGIAOQAxADQAYgA1ADEAMABjAGYAYQAxAGUAMgA2AGQANgBhAGUANAA4AGUAOAAxAGIANQBhAGIAZgAyAGMANQBjADYAYwA0ADAAZgAwADEAYgAwADYAOABkAGQAYQBkADgAYgBmADUAOQAzAGQAZQA3AGQAOAA1ADIAOQAyADkANQA5ADUAYQAxAGMAYQA4AGEANgA5ADEAZgA0ADgAMABjADUAMwAwADAAZgAxAGUANQA5ADYAYwAxADAAZABlADIAYwA0AGQAMQBjADkANAA1AGYAYQBjAGMAYwBiADkAYQBlADkAMQA0ADcAOAAyADEANQA5AGUAMwBlAGUAOQA1ADYANgBhADUAMgA2ADkAMQAzADgAZgBkAGYAOQA0ADMANwBmADkANQA2ADUANgA2AGUANABiADIANgBlADkAZQAxADkAZgAyAGYANwBhADEAOAAxADUAMgA2AGUAZABjAGEAOAA0ADMAYwAzAGQAMwBlADMAZgAxAGUAMQA5AGYAMgA1ADUANwBlADYAOQBhAGMANQBjADQAZgAxADUANgA0ADIAOAAyADUAMABiADMAOABmADUAOQBkADQAYQAyADMANwA5ADAAMAA5AGYANwBkADAAMgAyADYAOAA2ADIANgAyADAAMAA4ADIAMgAzAGIAMABiADAAYwAwADUAYgAyAGQAYwBhAGEANwBmADMANgA2ADEAMAA0AGMAZQAxAGUAYwAzADcAOQBjADQAOAAwAGIAMQBkADAAMgA4AGYANQAxADAAMwBlAGUANgBkAGIAZgBmAGMAOAA0ADkAZQBkAGYAMwBhADcAZgBiADEAYQA4AGQAZQBjADIANAAxADYANwA1ADEAMgA3ADAAMgBhAGIAYgA2ADQAOABjADYANgA5ADUANQBiAGMAMgBmADUANAA2ADgAZQA3AGEAZAAwADgAZABmADEAMQAxADIANgBmADcAMwA3ADkAMAA0AGEANwA0AGYAMQBkADIAMAAxADgANABjADEAZQBkADQAMgBjADkAMwAzADAAMwBhADMAMgAzAGUAZQA5ADcAOQA5AGMANgA1ADUAZgA3AGEAYQA2AGQANgA5AGQAOQBhADYAMwA4AGUAYQAwADAAZgAzADEAYQBiAGMAOABkAGUANAA2AGEANAAxAGIAMgA0ADgANQBkAGYAYwBkAGUAOQAyADEAMQBhADQAYQA3ADkAMAA5ADIAMgBjAGQANQBlAGQAZQBiADQAYQAxADkAMgA=</default-connection>
+	
+  </values>
+</data>

@@ -1,0 +1,29 @@
+<data>
+  <nodes>
+    <_parameter _name="serilog-write-to-rolling-file-path-format" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.pathFormat']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-retained-file-count-limit" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.retainedFileCountLimit']/@value" />
+    <_parameter _name="serilog-error" _xpath="//configuration/appSettings/add[@key='Serilog.Error']/@value" />
+    <_parameter _name="serilog-audit" _xpath="//configuration/appSettings/add[@key='Serilog.Audit']/@value" />
+    <_parameter _name="serilog-main" _xpath="//configuration/appSettings/add[@key='Serilog.Main']/@value" />
+    <_parameter _name="verisk-next-gen-iso-product-eligibility-srvc" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.IsoProductEligibilitySrvc']/@value" />
+    <_parameter _name="verisk-next-gen-get-all-iso-products" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.GetAllIsoProducts']/@value" />
+    <_parameter _name="verisk-next-gen-get-all-forms-lob" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.GetAllFormsLOB']/@value" />
+    <_parameter _name="verisk-next-gen-get-all-circulars-lob" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.GetAllCircularsLOB']/@value" />
+    <_parameter _name="verisk-next-gen-get-all-clmlob" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.GetAllCLMLOB']/@value" />
+    <_parameter _name="verisk-next-gen-get-all-multi-class-access-lob" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.GetAllMultiClassAccessLOB']/@value" />
+    <_parameter _name="verisk-next-gen-get-all-plmlob" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.GetAllPLMLOB']/@value" />
+    <_parameter _name="verisk-next-gen-get-all-jurisdictions" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.GetAllJurisdictions']/@value" />
+    <_parameter _name="identity-server-base-url" _xpath="//configuration/appSettings/add[@key='IdentityServer.BaseUrl']/@value" />
+    <_parameter _name="isoauthsvc" _xpath="//configuration/appSettings/add[@key='isoauthsvc']/@value" />
+    <_parameter _name="next-gen-file-storage-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.FileStorage.BaseUrl']/@value" />
+    <_parameter _name="aws-profile-name" _xpath="//configuration/appSettings/add[@key='AWSProfileName']/@value" />
+    <_parameter _name="aws-bucket-name" _xpath="//configuration/appSettings/add[@key='AWSBucketName']/@value" />
+    <_parameter _name="aws-access-key" _xpath="//configuration/appSettings/add[@key='AWSAccessKey']/@value" />
+    <_parameter _name="aws-secret-key" _xpath="//configuration/appSettings/add[@key='AWSSecretKey']/@value" _encrypted="true"/>
+    <_parameter _name="iso-product-access-denied-url" _xpath="//configuration/appSettings/add[@key='ISOProductAccessDeniedUrl']/@value" />
+    <_parameter _name="user-product-cache-expriation-time-in-hrs" _xpath="//configuration/appSettings/add[@key='UserProductCacheExpriationTimeInHrs']/@value" />
+    <_parameter _name="iso-product-list-cache-expriation-time-in-hrs" _xpath="//configuration/appSettings/add[@key='ISOProductListCacheExpriationTimeInHrs']/@value" />
+	<_parameter _name="default-connection" _xpath="//configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" _encrypted="true" />
+	<_parameter _name="redis-cache" _xpath="//configuration/connectionStrings/add[@name='Redis.Cache']/@connectionString" _encrypted="true" />
+  </nodes>
+</data>

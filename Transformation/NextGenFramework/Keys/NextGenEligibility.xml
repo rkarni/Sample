@@ -1,0 +1,15 @@
+<data>
+  <nodes>
+    <_parameter _name="verisk-next-gen-iso-product-eligibility-srvc" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.IsoProductEligibilitySrvc']/@value" />
+    <_parameter _name="verisk-next-gen-iso-authentication-srvc" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.IsoAuthenticationSrvc']/@value" />
+    <_parameter _name="verisk-next-gen-iso-entitlements-srvc" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.IsoEntitlementsSrvc']/@value" />
+    <_parameter _name="is-auditing-enabled" _xpath="//configuration/appSettings/add[@key='IsAuditingEnabled']/@value" />
+    <_parameter _name="serilog-minimum-level" _xpath="//configuration/appSettings/add[@key='serilog:minimum-level']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-path-format" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.pathFormat']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-retained-file-count-limit" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.retainedFileCountLimit']/@value" />
+    <_parameter _name="serilog-error" _xpath="//configuration/appSettings/add[@key='Serilog.Error']/@value" />
+    <_parameter _name="serilog-audit" _xpath="//configuration/appSettings/add[@key='Serilog.Audit']/@value" />
+    <_parameter _name="serilog-main" _xpath="//configuration/appSettings/add[@key='Serilog.Main']/@value" />
+  </nodes>
+</data>

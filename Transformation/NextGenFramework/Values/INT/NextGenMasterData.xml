@@ -1,0 +1,32 @@
+<data>
+    <include path="..\..\Keys\NextGenMasterData.xml" />
+
+    <values>
+    <master-data-base-url>https://isonetsvca.iso.com/</master-data-base-url>
+    <cl-m-srvc-type-url>clmaccesssvc/clmGetAllServiceTypes</cl-m-srvc-type-url>
+    <cl-m-lo-b-url>clmaccesssvc/clmGetAllLOBS</cl-m-lo-b-url>
+    <cl-m-juris-url>clmaccesssvc/clmGetAllStatesJurs</cl-m-juris-url>
+    <circular-s-srvc-type-url>circaccesssvc/circularsGetAllCircServiceTypes</circular-s-srvc-type-url>
+    <circular-s-lo-b-url>circaccesssvc/circularsGetAllCircLOBs</circular-s-lo-b-url>
+    <circular-s-juris-url>circaccesssvc/circularsGetAllCircStatesJurs</circular-s-juris-url>
+    <fl-v-srvc-type-url>flvAccessSvc/FLVGetAllServiceTypes</fl-v-srvc-type-url>
+    <fl-v-lo-b-url>flvAccessSvc/FLVGetCommercialLOBs</fl-v-lo-b-url>
+    <fl-v-personal-lo-b-url>flvAccessSvc/FLVGetPersonalLOBs</fl-v-personal-lo-b-url>
+    <fl-v-juris-url>flvAccessSvc/FLVGetAllStatesJurs</fl-v-juris-url>
+    <pr-m-srvc-type-url>plmaccesssvc/plmGetAllServiceTypes</pr-m-srvc-type-url>
+    <pr-m-lo-b-url>plmaccesssvc/plmGetAllLOBS</pr-m-lo-b-url>
+    <pr-m-juris-url>plmaccesssvc/plmGetAllStatesJurs</pr-m-juris-url>
+    <form-s-lo-b-url>formaccesssvc/getAllLinesOfBusinesses</form-s-lo-b-url>
+    <form-s-juris-url>formaccesssvc/getAllJurisdictions</form-s-juris-url>
+    <multilineclasstabl-e-lo-b-url>multiclassaccesssvc/getAllLinesOfBusinesses</multilineclasstabl-e-lo-b-url>
+    <multilineclasstabl-e-juris-url>multiclassaccesssvc/getAllJurisdictions</multilineclasstabl-e-juris-url>
+    <lmo-n-lo-b-url>lmonaccesssvc/getAllLinesOfBusinesses</lmo-n-lo-b-url>
+    <serilog-minimum-level>Debug</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:\Logs\MasterData\MasterData-write-to-rolling-file-path-format-{Date}.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>10</serilog-write-to-rolling-file-retained-file-count-limit>
+    <serilog-error>D:\Logs\MasterData-Error-Log-{Date}.log</serilog-error>
+    <serilog-audit>D:\Logs\MasterData-Audit-Log-{Date}.log</serilog-audit>
+    <serilog-main>D:\Logs\MasterData-Main-Log-{Date}.log</serilog-main>
+    <redis-cache>76492d1116743f0423413b16050a5345MgB8ADkAdgBHAHcAUgBLAGcAbAA4AGsAZAA5AFkAZABRAFAANQAyAGoAcgBlAEEAPQA9AHwAYwAwADMAYwAyADgAZAAzAGYAYQA0ADcAYQBiADYAOQA3ADcAOQAwADEAZgAzADUAZQAyAGMAYwBiADcAYwBkADEAMgBmADUAOAA1AGQAMAAwADcANgAxADIAMgA5AGMAYwA4ADkANwBmAGUAYQA0AGQANwBjADAAOQA0AGIAMQBmADQAZABmADkAZABiADgAMgBjAGEANgBhAGYAZgA4AGEAYQA5ADEAYQA2ADkANwA0AGUANgAzADIAMwAyADkAOAA4ADYANQAwADYAOABlAGEANwA0AGUAYwBkAGMAMwA1ADYAZQBlADAAYQBmAGIANgBkADkANgAwADQANgA0ADMAMgAyADEANABjADUAYgAxAGUAZAA4AGUAMQA3ADMAYQBjADkAZQAzADIAYgA2AGUAMgA4ADcANwAwADEAOAA3ADQAOABkADkANQA0ADQANwBhAGQAMABkADIAZAAyAGMAZQAxADMANgBlAGIAMQBjADMAMQA1AGYAZQAxADkAMQAzADUAMQA2ADIANQAwADkAZABlAGEAOAAwAGUAZgBiADUAOQAxADcANQBhAGEAMwBhADEAYwA1AGUANgBkAGIAYQBlADgANgBkADUAOAAxAGIAMAA0AGIAZgAxADQAOQAwADEAZQA2ADIAZgA2AGIAZAA0AGUANABhAGYAZQA=</redis-cache>
+  </values>
+</data>

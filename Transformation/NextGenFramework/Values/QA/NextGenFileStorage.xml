@@ -1,0 +1,14 @@
+<data>
+    <include path="..\..\Keys\NextGenFileStorage.xml" />
+
+    <values>
+    <aws-region>us-east-1</aws-region>
+    <pre-signed-url-expiry>5</pre-signed-url-expiry>
+    <serilog-minimum-level>Info</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:\Logs\FileStorage\FileStorage-write-to-rolling-file-path-format-{Date}.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>10</serilog-write-to-rolling-file-retained-file-count-limit>
+    <serilog-error>D:\Logs\FileStorage\FileStorage-Error-Log-{Date}.log</serilog-error>
+    <serilog-audit>D:\Logs\FileStorage\FileStorage-Audit-Log-{Date}.log</serilog-audit>
+    <serilog-main>D:\Logs\FileStorage\FileStorage-Main-Log-{Date}.log</serilog-main>
+  </values>
+</data>

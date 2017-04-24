@@ -1,0 +1,17 @@
+<data>
+    <include path="..\..\Keys\NextGenGateWay.xml" />
+
+    <values>
+    <verisk-next-gen-user-token-srvc>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/ng-api/eligibility/api/Eligibility/</verisk-next-gen-user-token-srvc>
+    <verisk-next-gen-eligibility-srvc>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/ng-api/eligibility/api/v1/Eligibility/</verisk-next-gen-eligibility-srvc>
+    <eligibility>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/ng-api/eligibility/api/v1/Eligibility/</eligibility>
+    <entitlements>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/ng-api/entitlements/api/v1/Entitlements/</entitlements>
+    <gateway-configuration>GatewayConfiguration.xml</gateway-configuration>
+    <serilog-minimum-level>Info</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:\Logs\GateWay\GateWay-write-to-rolling-file-path-format-{Date}.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>10</serilog-write-to-rolling-file-retained-file-count-limit>
+    <serilog-error>D:\Logs\GateWay\GateWay-Error-Log-{Date}.log</serilog-error>
+    <serilog-audit>D:\Logs\GateWay\GateWay-Audit-Log-{Date}.log</serilog-audit>
+    <serilog-main>D:\Logs\GateWay\GateWay-Main-Log-{Date}.log</serilog-main>
+  </values>
+</data>

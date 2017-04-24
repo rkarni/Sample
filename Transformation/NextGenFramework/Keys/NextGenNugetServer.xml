@@ -1,0 +1,11 @@
+<data>
+  <nodes>
+    <_parameter _name="require-api-key" _xpath="//configuration/appSettings/add[@key='requireApiKey']/@value" />
+    <_parameter _name="api-key" _xpath="//configuration/appSettings/add[@key='apiKey']/@value" />
+    <_parameter _name="packages-path" _xpath="//configuration/appSettings/add[@key='packagesPath']/@value" />
+    <_parameter _name="allow-override-existing-package-on-push" _xpath="//configuration/appSettings/add[@key='allowOverrideExistingPackageOnPush']/@value" />
+    <_parameter _name="ignore-symbols-packages" _xpath="//configuration/appSettings/add[@key='ignoreSymbolsPackages']/@value" />
+    <_parameter _name="enable-delisting" _xpath="//configuration/appSettings/add[@key='enableDelisting']/@value" />
+    <_parameter _name="enable-framework-filtering" _xpath="//configuration/appSettings/add[@key='enableFrameworkFiltering']/@value" />
+  </nodes>
+</data>

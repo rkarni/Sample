@@ -1,0 +1,13 @@
+<data>
+  <nodes>
+    <_parameter _name="aws-region" _xpath="//configuration/appSettings/add[@key='AWSRegion']/@value" />
+    <_parameter _name="pre-signed-url-expiry" _xpath="//configuration/appSettings/add[@key='PreSignedURLExpiry']/@value" />
+    <_parameter _name="serilog-minimum-level" _xpath="//configuration/appSettings/add[@key='serilog:minimum-level']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-path-format" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.pathFormat']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-retained-file-count-limit" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.retainedFileCountLimit']/@value" />
+    <_parameter _name="serilog-error" _xpath="//configuration/appSettings/add[@key='Serilog.Error']/@value" />
+    <_parameter _name="serilog-audit" _xpath="//configuration/appSettings/add[@key='Serilog.Audit']/@value" />
+    <_parameter _name="serilog-main" _xpath="//configuration/appSettings/add[@key='Serilog.Main']/@value" />
+  </nodes>
+</data>

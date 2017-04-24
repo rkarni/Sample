@@ -1,0 +1,31 @@
+<data>
+    <include path="..\..\Keys\NextGenPCInternalAPI.xml" />
+
+    <values>
+		<serilog-write-to-rolling-file-path-format>D:\Logs\product-center-{Date}.txt</serilog-write-to-rolling-file-path-format>
+		<serilog-write-to-rolling-file-retained-file-count-limit>10</serilog-write-to-rolling-file-retained-file-count-limit>
+		<serilog-error>D:\Logs\product-center-Error-Log-{Date}.log</serilog-error>
+		<serilog-audit>D:\Logs\product-center-Audit-Log-{Date}.log</serilog-audit>
+		<serilog-main>D:\Logs\product-center-Mail-Log-{Date}.log</serilog-main>        
+		<verisk-next-gen-iso-product-eligibility-srvc>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/ng-api/eligibility/api/v1/Eligibility/UniqueProductsOfUser/</verisk-next-gen-iso-product-eligibility-srvc>
+		<verisk-next-gen-get-all-iso-products>https://isonetsvca.iso.com/isoUserSvc/getLinksForAllIsonetProducts</verisk-next-gen-get-all-iso-products>
+		<verisk-next-gen-get-all-forms-lob>https://isonetsvca.iso.com/formaccesssvc/getAllLinesOfBusinesses</verisk-next-gen-get-all-forms-lob>
+		<verisk-next-gen-get-all-circulars-lob>https://isonetsvct.iso.com/circaccesssvc/circularsGetAllCircLOBs</verisk-next-gen-get-all-circulars-lob>
+		<verisk-next-gen-get-all-clmlob>https://isonetsvca.iso.com/clmaccesssvc/clmGetAllLOBS</verisk-next-gen-get-all-clmlob>
+		<verisk-next-gen-get-all-multi-class-access-lob>https://isonetsvct.iso.com/multiclassaccesssvc/getAllLinesOfBusinesses</verisk-next-gen-get-all-multi-class-access-lob>
+		<verisk-next-gen-get-all-plmlob>https://isonetsvct.iso.com/plmaccesssvc/plmGetAllLOBS</verisk-next-gen-get-all-plmlob>
+		<verisk-next-gen-get-all-jurisdictions>https://isonetsvca.iso.com/formaccesssvc/getAllJurisdictions</verisk-next-gen-get-all-jurisdictions>
+		<identity-server-base-url>https://idq.iso.com/identity</identity-server-base-url>
+		<isoauthsvc>https://isonetsvca.iso.com/isoauthsvc/</isoauthsvc>
+		<next-gen-file-storage-base-url>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/ng-api/filestorage/api/v1/FileStorage/</next-gen-file-storage-base-url>
+		<aws-profile-name>PC-S3-ACCESSID-NP</aws-profile-name>
+		<aws-bucket-name>productcenter-qa</aws-bucket-name>
+		<aws-access-key>AKIAJOHGFXKEEUN2MHSA</aws-access-key>
+		<aws-secret-key>76492d1116743f0423413b16050a5345MgB8AFIAQgAxAFoAbQBKAEkAYQBDAE8AZQBlAGsAbwBoAFEAcgBuAGwAZgA3AHcAPQA9AHwAOABjAGYAZgA4AGYANgAzADUANgBkAGIAYQAyADcAMgA3ADYAMwBhAGYAMgBhADkAZgA4ADYAZAAzADQANgBmADQAYQA1ADQANQBhAGYAZAA2ADAANQAxADQAOQA2ADQAOQAzAGQAMQA5ADYAOAAyAGUAOAA0ADQAMgBhADIAYwBkAGMANwAyAGYANgAyADkAYwBmAGQAZQBiADgAOAAxADIAMABiAGUAYgAwADcANAA1ADcAYQAzAGEAYQA1ADUAMAA4AGIAMQAwADkAMwA4ADEAMwAxADkAOQAyADUAMgBiAGYAMwBmAGEANAA2AGQANwBlADYANAA2ADMANwBhADMAOQA0ADUAMwA3AGYAOABlAGQAZgAyADMAZgBkAGIANQAzADUAMwA2ADgAOQAwADYANgA1ADUAOAA0AGIANgA2ADEAZgA3ADAANgAwADUAMQA0ADEAYwBjAGEAMAAzADkAYQBkAGYANgAwADQANQA1ADEAZgAxADMAYwBjAGEA</aws-secret-key>
+		<iso-product-access-denied-url>hhttps://www6.iso.com/inadmin/accessDenied.action</iso-product-access-denied-url>
+		<user-product-cache-expriation-time-in-hrs>5</user-product-cache-expriation-time-in-hrs>
+		<iso-product-list-cache-expriation-time-in-hrs>5</iso-product-list-cache-expriation-time-in-hrs>
+		<default-connection>76492d1116743f0423413b16050a5345MgB8ADgAMgB2AHgAbABsADEAZgAzAGwAQQAxACsARgBTAHUAaQAxAEUARwBWAEEAPQA9AHwAMQAzAGYANQA4ADgANQA2AGYAMgA3ADQAZAA2ADYAMwAwAGEANwBmADQAZQBlADYANwBlADkAMgBmADEAMwAwADgAOAAzADYANAA5AGYANwAzADIAMAA2ADYANgA3AGEANgAxAGMANwA0AGIAYgBhADAAYgA1AGYAOAA3ADMAMQA5AGUAOQBhADQAYQA3ADkAMgAzAGEANABkADcAZQA4ADUANwBiADMAZgAyAGIANgA4AGUAMwA0AGMAYQA2ADcAMAA4ADcAMgA3ADcAZgBlADkAMgA5AGQAZABkADUAZgAzADkAYwA0ADMAYgBmADEAMwBmADQAZAAxAGIAYwA4AGQAZAA4ADYANQBlAGQAZAA0AGEANwA2AGUAOABiADUAMgAyAGEAZQBmADUANAAwAGUAYwAyADgANwAxADEAYQA2AGEAOQAyAGQANgBmADMAYQA1ADUANAAxAGIANQA4ADcAYQA5ADAAOABiAGUAYQAzADYAOQBkAGEAMgA0AGEAZgBhADcAMABjADEAZgBmAGMAMQAzADIAYwA0ADQANQAzADIAYQAyAGQANQBhADYAMABkADAAMQAyADgAOQA3ADkAMwBkADUAMwA0ADYAMQBjADQAZQAxAGUANgA5AGIAOAAzADgAMwA4ADkAZQAyAGEAOABmADAAZgBjADAANQA2ADgAZgBlADgAYwA2AGQAYwBmADUAYgBmAGUAZABkADgAZgBjADEAZgA0AGUAOQA2ADEANwBmADEANwA0ADIAMABiAGUAOQBjADIAMQBmAGEANQBiADkANQA5ADkANABkADgAYQA5ADYAMAAwADUANwA1ADIANgAyAGMAZAAyAGQAMQBlADYAOQAwAGYAMgA1AGYAZgBkADUAOAA1ADAAMwAwAGUAZgAxADEAMABkADMAMAA5AGQANQBmAGIANAA3AGQAMwBlADEAOAAxAGEAZAA1AGUAYgBhAGUAZQA0ADIAYwA1AGQAMgAwAGUAMAAxAGMAYwA2ADEAOAAzADMAZABjAGMAOQAwAGMAZAA3AGUAZgA4AGUANwAwAGYAOQBhAGEAZgA3ADMANgA0ADUAYgAxADMAOQAzAGMAMgAzADIAMQA0AGQAYwAxADEAMABjADEANQBiAGEAMQBkADYANgA4ADEAZAAzADIANwBmADYAZQA0ADIANAA4ADIAYQBiAGYAOABkADgAZQBjADkAZQA0ADAAMwA4ADQAOAA2AGEAYwA1AGQAOABiADkANwBmADgAOQA3ADYAYgAzAGIAZAAxADQAMQA2AGYANAA2ADAAZQAzAGQAMwAxAGQAYgA5AGQAMgAwAGEAMwBiAGQAMQAxADMAMwAxADQAZAAyAA==</default-connection>
+		<redis-cache>76492d1116743f0423413b16050a5345MgB8AFQAUwB5AGoAegBFAGUAWABKAEIAegBsAC8AdgBRAHoAcgBSAFUAbwA0AFEAPQA9AHwANwA5ADEAMQBkAGEAZgAzADkANABlAGUAMABjAGIAOAA3AGUAMAA2AGQAMwA3ADkAMgA2ADQANQA0ADgAMgBkADIANAAwADMAZgA4ADYAMwBmADUAYQAyADYAYgA2ADAAMAA1ADgAMQBlADUANwBlAGQANQBkAGQAZgAwADUAYwBjAGQAYwA5ADEANQBjAGYANwA3ADUANABhADEANwA5AGMAMAA4ADkAMABiADgANwBjADMAMwBlADEANgBiADQAMgA4ADMAMwA2ADMAZABmAGEAYQBiAGIAOQA3ADYANAA5AGMANAAxADIAMgAxAGEANABhAGEANQBhADEAZQBlAGUAOQA2AGIANABhADAAYQA5AGQAMAAyADMAYgBjAGQAYQBmAGEANwA1AGUAMQBkADYANwBkADIAYwA2ADcAZQAwADEAMQAwADcAMwA4ADcAYwA4ADkAOQBkAGIAZgAwADcAOQA0ADIAOAA2AGMAYgAwADAANwAwADkAMwAxADEANQBlADMAYwA0ADIAOQBiADkAMwA0AGYAZgA5ADgAZgA5ADAAZAAyADkAZgBlAGMAZgBkADYAMgBlAGUANQA1ADkANAAwAGQANgA1AGMAMwBjADAAZQA2ADYANAA3ADIAOAAxADgAZQBiADIAYgA5ADEAMgAwAGQANQBhADkAZgA=</redis-cache>
+	</values>
+</data>

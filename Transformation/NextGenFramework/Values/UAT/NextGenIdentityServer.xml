@@ -1,0 +1,48 @@
+<data>
+    <include path="..\..\Keys\NextGenIdentityServer.xml" />
+
+    <values>
+    <identity-db-name>VeriskIdentity</identity-db-name>
+    <serilog-minimum-level>Verbose</serilog-minimum-level>
+    <formaccesssvc>https://isonetsvct.iso.com/formaccesssvc/</formaccesssvc>
+    <isoauthsvc>https://isonetsvca.iso.com/isoauthsvc/</isoauthsvc>
+    <isouserprofilesvc>https://isonetsvca.iso.com/isouserprofilesvc/</isouserprofilesvc>
+    <isousersvc>https://isonetsvca.iso.com/isousersvc/</isousersvc>
+    <next-gen-base-url>https://isoq.iso.com/</next-gen-base-url>
+    <forgot-password-link>https://www6t.iso.com/auth/lostpassword/step1.action</forgot-password-link>
+    <registration-instructions>https://info.iso.com/content/services/subscription_info.action</registration-instructions>
+    <iso-corporate-home>http://www.verisk.com/</iso-corporate-home>
+    <terms-and-conditions>http://www.verisk.com/Privacy-Trademarks-Use/Privacy-Trademarks-Use/Verisk-Analytics-Conditions-of-Use.html</terms-and-conditions>
+    <privacy-notice>http://www.verisk.com/iso/privacy-trademarks-use/verisk-online-privacy-notice.html</privacy-notice>
+    <contact-us>http://www.verisk.com/contact-verisk.html</contact-us>
+    <next-gen-identity-server-public-origin>http://idq.iso.com</next-gen-identity-server-public-origin>
+    <next-gen-identity-server-base-url>http://idq.iso.com/identity</next-gen-identity-server-base-url>
+    <next-gen-pc-dev-clien-id>NextgenWeb</next-gen-pc-dev-clien-id>
+    <next-gen-pc-dev-base-url>https://isoq.iso.com/</next-gen-pc-dev-base-url>
+    <next-gen-identity-server-csp-url>'self'</next-gen-identity-server-csp-url>
+    <next-gen-sample-app-client-id>SampleApp</next-gen-sample-app-client-id>
+    <next-gen-sample-app-base-url>http://NG-PC-WEB-DEV7-b6fc5208952705-1596895632.us-east-1.elb.amazonaws.com/sampleapp/</next-gen-sample-app-base-url>
+    <next-gen-product1-client-id>ClientAppOne</next-gen-product1-client-id>
+    <next-gen-product1-base-url>http://nextgen-dev-1151831405.us-east-1.elb.amazonaws.com:8086/</next-gen-product1-base-url>
+    <next-gen-product2-client-id>ClientAppTwo</next-gen-product2-client-id>
+    <next-gen-product2-base-url>http://nextgen-dev-1151831405.us-east-1.elb.amazonaws.com:8087/</next-gen-product2-base-url>
+    <sign-in-message-threshold>5</sign-in-message-threshold>
+    <next-gen-angular-client-client-id>AngularClient</next-gen-angular-client-client-id>
+    <next-gen-angular-client-base-url>https://isoq.iso.com/ac/</next-gen-angular-client-base-url>
+    <next-gen-fl-v-client-id>FlvWeb</next-gen-fl-v-client-id>
+    <next-gen-fl-v-base-url>https://isoq.iso.com/flv/</next-gen-fl-v-base-url>
+    <next-gen-ei-light-web-client-name>EI Editorial Lite</next-gen-ei-light-web-client-name>
+    <next-gen-ei-light-web-client-id>EIEditorialLite</next-gen-ei-light-web-client-id>
+    <next-gen-ei-light-web-base-url>https://isoq.iso.com/ei-admin/</next-gen-ei-light-web-base-url>
+    <next-gen-ei-portal-client-name>EIPortal Client</next-gen-ei-portal-client-name>
+    <next-gen-ei-portal-client-id>EIPortal</next-gen-ei-portal-client-id>
+    <next-gen-ei-portal-base-url>https://isoq.iso.com/ei/</next-gen-ei-portal-base-url>
+    <serilog-write-to-rolling-file-path-format>D:\Logs\write-to-rolling-file-path-format-{Date}.txt</serilog-write-to-rolling-file-path-format>
+    <serilog-error>D:\Logs\IDT-Error-Log-{Date}.log</serilog-error>
+    <serilog-audit>D:\Logs\IDT-Audit-Log-{Date}.log</serilog-audit>
+    <serilog-main>D:\Logs\IDT-Main-Log-{Date}.log</serilog-main>
+    
+    <idsvr-3-config>DB EncriptedKey Here</idsvr-3-config>
+
+  </values>
+</data>

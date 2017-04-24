@@ -1,0 +1,37 @@
+<data>
+  <nodes>
+    <_parameter _name="maximum-directories-count" _xpath="//configuration/appSettings/add[@key='MaximumDirectoriesCount']/@value" />
+    <_parameter _name="max-directory-name-length" _xpath="//configuration/appSettings/add[@key='MaxDirectoryNameLength']/@value" />
+    <_parameter _name="max-page-name-length" _xpath="//configuration/appSettings/add[@key='MaxPageNameLength']/@value" />
+    <_parameter _name="max-post-name-length" _xpath="//configuration/appSettings/add[@key='MaxPostNameLength']/@value" />
+    <_parameter _name="home-page-name" _xpath="//configuration/appSettings/add[@key='HomePageName']/@value" />
+    <_parameter _name="pcr" _xpath="//configuration/appSettings/add[@key='Pcr']/@value" />
+    <_parameter _name="pcr-debugging" _xpath="//configuration/appSettings/add[@key='PcrDebugging']/@value" />
+    <_parameter _name="pcr-base-url" _xpath="//configuration/appSettings/add[@key='PcrBaseUrl']/@value" />
+    <_parameter _name="pcr-insert-url" _xpath="//configuration/appSettings/add[@key='PcrInsertUrl']/@value" />
+    <_parameter _name="file-storage-api-base-url" _xpath="//configuration/appSettings/add[@key='FileStorageApiBaseUrl']/@value" />
+    <_parameter _name="file-storage-timeout" _xpath="//configuration/appSettings/add[@key='FileStorageTimeout']/@value" />
+    <_parameter _name="file-storage-error-image" _xpath="//configuration/appSettings/add[@key='FileStorageErrorImage']/@value" />
+    <_parameter _name="topic-post-fix" _xpath="//configuration/appSettings/add[@key='TopicPostFix']/@value" />
+    <_parameter _name="post-post-fix" _xpath="//configuration/appSettings/add[@key='PostPostFix']/@value" />
+    <_parameter _name="landing-post-fix" _xpath="//configuration/appSettings/add[@key='LandingPostFix']/@value" />
+    <_parameter _name="weekly-digest-post-fix" _xpath="//configuration/appSettings/add[@key='WeeklyDigestPostFix']/@value" />
+    <_parameter _name="ei-portal-ui" _xpath="//configuration/appSettings/add[@key='EIPortalUI']/@value" />
+    <_parameter _name="aws-profile-name" _xpath="//configuration/appSettings/add[@key='AWSProfileName']/@value" />
+    <_parameter _name="aws-bucket-name" _xpath="//configuration/appSettings/add[@key='AWSBucketName']/@value" />
+    <_parameter _name="aws-access-key" _xpath="//configuration/appSettings/add[@key='AWSAccessKey']/@value" />
+    <_parameter _name="aws-secret-key" _xpath="//configuration/appSettings/add[@key='AWSSecretKey']/@value" _encrypted="true" />
+    <_parameter _name="email-api-url" _xpath="//configuration/appSettings/add[@key='EmailAPIUrl']/@value" />
+    <_parameter _name="contact-us-reciever-key" _xpath="//configuration/appSettings/add[@key='contactUsRecieverKey']/@value" />
+    <_parameter _name="default-sender-email-key" _xpath="//configuration/appSettings/add[@key='defaultSenderEmailKey']/@value" />
+    <_parameter _name="serilog-minimum-level" _xpath="//configuration/appSettings/add[@key='serilog:minimum-level']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-path-format" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.pathFormat']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-retained-file-count-limit" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.retainedFileCountLimit']/@value" />
+    <_parameter _name="serilog-debug" _xpath="//configuration/appSettings/add[@key='Serilog.Debug']/@value" />
+    <_parameter _name="serilog-error" _xpath="//configuration/appSettings/add[@key='Serilog.Error']/@value" />
+    <_parameter _name="serilog-audit" _xpath="//configuration/appSettings/add[@key='Serilog.Audit']/@value" />
+    <_parameter _name="serilog-main" _xpath="//configuration/appSettings/add[@key='Serilog.Main']/@value" />
+	<_parameter _name="default-connection" _xpath="//configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" _encrypted="true" />
+  </nodes>
+</data>

@@ -1,0 +1,21 @@
+<data>
+  <nodes>
+    <_parameter _name="serilog-write-to-rolling-file-path-format" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.pathFormat']/@value" />
+    <_parameter _name="serilog-error" _xpath="//configuration/appSettings/add[@key='Serilog.Error']/@value" />
+    <_parameter _name="serilog-audit" _xpath="//configuration/appSettings/add[@key='Serilog.Audit']/@value" />
+    <_parameter _name="serilog-main" _xpath="//configuration/appSettings/add[@key='Serilog.Main']/@value" />
+    <_parameter _name="master-data-commercial-lob-url" _xpath="//configuration/appSettings/add[@key='MasterData.CommercialLOBUrl']/@value" />
+    <_parameter _name="master-data-personal-lob-url" _xpath="//configuration/appSettings/add[@key='MasterData.PersonalLOBUrl']/@value" />
+    <_parameter _name="user-entitled-personal-lob-url" _xpath="//configuration/appSettings/add[@key='UserEntitled.PersonalLOBUrl']/@value" />
+    <_parameter _name="user-entitled-commercial-lob-url" _xpath="//configuration/appSettings/add[@key='UserEntitled.CommercialLOBUrl']/@value" />
+    <_parameter _name="master-data-jurisdictions-url" _xpath="//configuration/appSettings/add[@key='MasterData.JurisdictionsUrl']/@value" />
+    <_parameter _name="master-data-service-types-url" _xpath="//configuration/appSettings/add[@key='MasterData.ServiceTypesUrl']/@value" />
+    <_parameter _name="user-entitled-service-types-url" _xpath="//configuration/appSettings/add[@key='UserEntitled.ServiceTypesUrl']/@value" />
+    <_parameter _name="user-entitled-jurisdictions-url" _xpath="//configuration/appSettings/add[@key='UserEntitled.JurisdictionsUrl']/@value" />
+    <_parameter _name="identity-server-base-url" _xpath="//configuration/appSettings/add[@key='IdentityServer.BaseUrl']/@value" />
+    <_parameter _name="webapi-base-url" _xpath="//configuration/appSettings/add[@key='Webapi.BaseUrl']/@value" />
+    <_parameter _name="verisk-next-gen-iso-product-eligibility-srvc" _xpath="//configuration/appSettings/add[@key='Verisk.NextGen.IsoProductEligibilitySrvc']/@value" />
+    <_parameter _name="verisk-fl-v-product-id" _xpath="//configuration/appSettings/add[@key='Verisk.FLV.ProductID']/@value" />
+	<_parameter _name="redis-cache" _xpath="//configuration/connectionStrings/add[@name='Redis.Cache']/@connectionString" _encrypted="true" />
+  </nodes>
+</data>

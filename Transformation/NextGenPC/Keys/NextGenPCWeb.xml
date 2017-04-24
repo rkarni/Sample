@@ -1,0 +1,47 @@
+<data>
+  <nodes>
+    <_parameter _name="webpages-enabled" _xpath="//configuration/appSettings/add[@key='webpages:Enabled']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-path-format" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.pathFormat']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-retained-file-count-limit" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.retainedFileCountLimit']/@value" />
+    <_parameter _name="serilog-error" _xpath="//configuration/appSettings/add[@key='Serilog.Error']/@value" />
+    <_parameter _name="serilog-audit" _xpath="//configuration/appSettings/add[@key='Serilog.Audit']/@value" />
+    <_parameter _name="serilog-main" _xpath="//configuration/appSettings/add[@key='Serilog.Main']/@value" />
+    <_parameter _name="product-center-base-url" _xpath="//configuration/appSettings/add[@key='ProductCenter.BaseUrl']/@value" />
+    <_parameter _name="next-gen-identity-server-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.IdentityServer.BaseUrl']/@value" />
+    <_parameter _name="next-gen-pc-dev-clien-id" _xpath="//configuration/appSettings/add[@key='NextGen.pcDev.ClienID']/@value" />
+    <_parameter _name="filesharepath" _xpath="//configuration/appSettings/add[@key='filesharepath']/@value" />
+    <_parameter _name="webapi-base-url" _xpath="//configuration/appSettings/add[@key='Webapi.BaseUrl']/@value" />
+    <_parameter _name="phone" _xpath="//configuration/appSettings/add[@key='Phone']/@value" />
+    <_parameter _name="phone-international" _xpath="//configuration/appSettings/add[@key='PhoneInternational']/@value" />
+    <_parameter _name="email" _xpath="//configuration/appSettings/add[@key='Email']/@value" />
+    <_parameter _name="new-relic-app-name" _xpath="//configuration/appSettings/add[@key='NewRelic.AppName']/@value" />
+    <_parameter _name="globalsearchurl" _xpath="//configuration/appSettings/add[@key='globalsearchurl']/@value" />
+    <_parameter _name="surveyurl" _xpath="//configuration/appSettings/add[@key='surveyurl']/@value" />
+    <_parameter _name="globalsearchvideourl" _xpath="//configuration/appSettings/add[@key='globalsearchvideourl']/@value" />
+    <_parameter _name="productcentervideourl" _xpath="//configuration/appSettings/add[@key='productcentervideourl']/@value" />
+    <_parameter _name="isoeducationurl" _xpath="//configuration/appSettings/add[@key='isoeducationurl']/@value" />
+    <_parameter _name="globalsearch-recentsearchurl" _xpath="//configuration/appSettings/add[@key='globalsearch.recentsearchurl']/@value" />
+    <_parameter _name="globalsearch-get-all-user-search-keywords" _xpath="//configuration/appSettings/add[@key='globalsearch.GetAllUserSearchKeywords']/@value" />
+    <_parameter _name="globalsearch-clear-all-recent-searches" _xpath="//configuration/appSettings/add[@key='globalsearch.ClearAllRecentSearches']/@value" />
+    <_parameter _name="globalsearch-clear-recent-searches-by-id" _xpath="//configuration/appSettings/add[@key='globalsearch.ClearRecentSearchesById']/@value" />
+    <_parameter _name="next-gen-file-storage-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.FileStorage.BaseUrl']/@value" />
+    <_parameter _name="aws-profile-name" _xpath="//configuration/appSettings/add[@key='AWSProfileName']/@value" />
+    <_parameter _name="aws-bucket-name" _xpath="//configuration/appSettings/add[@key='AWSBucketName']/@value" />
+    <_parameter _name="aws-access-key" _xpath="//configuration/appSettings/add[@key='AWSAccessKey']/@value" />
+    <_parameter _name="aws-secret-key" _xpath="//configuration/appSettings/add[@key='AWSSecretKey']/@value" _encrypted="true" />
+    <_parameter _name="master-data-cache-expriation-time-in-hrs" _xpath="//configuration/appSettings/add[@key='MasterDataCacheExpriationTimeInHrs']/@value" />
+    <_parameter _name="iso-eligible-product-cache-expriation-time-in-hrs" _xpath="//configuration/appSettings/add[@key='IsoEligibleProductCacheExpriationTimeInHrs']/@value" />
+    <_parameter _name="published-panels-cache-expriation-time-in-hrs" _xpath="//configuration/appSettings/add[@key='PublishedPanelsCacheExpriationTimeInHrs']/@value" />
+    <_parameter _name="published-products-of-user-cache-expriation-time-in-hrs" _xpath="//configuration/appSettings/add[@key='PublishedProductsOfUserCacheExpriationTimeInHrs']/@value" />
+    <_parameter _name="site-catalyst-fa-products-cache-expriation-time-in-hrs" _xpath="//configuration/appSettings/add[@key='SiteCatalystFAProductsCacheExpriationTimeInHrs']/@value" />
+    <_parameter _name="ticker-cache-expiry-time" _xpath="//configuration/appSettings/add[@key='TickerCacheExpiryTime']/@value" />
+    <_parameter _name="site-cat-user-name" _xpath="//configuration/appSettings/add[@key='SiteCatUserName']/@value" />
+    <_parameter _name="site-cat-secret-key" _xpath="//configuration/appSettings/add[@key='SiteCatSecretKey']/@value" />
+    <_parameter _name="site-cat-omini-api" _xpath="//configuration/appSettings/add[@key='SiteCatOminiApi']/@value" />
+    <_parameter _name="site-cat-selector" _xpath="//configuration/appSettings/add[@key='SiteCatSelector']/@value" />
+    <_parameter _name="site-cat-data-past-days" _xpath="//configuration/appSettings/add[@key='SiteCatDataPastDays']/@value" />
+    <_parameter _name="site-cat-report-suite-id" _xpath="//configuration/appSettings/add[@key='SiteCatReportSuiteId']/@value" />
+	<_parameter _name="default-connection" _xpath="//configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" _encrypted="true" />
+	<_parameter _name="redis-cache" _xpath="//configuration/connectionStrings/add[@name='Redis.Cache']/@connectionString" _encrypted="true" />
+  </nodes>
+</data>

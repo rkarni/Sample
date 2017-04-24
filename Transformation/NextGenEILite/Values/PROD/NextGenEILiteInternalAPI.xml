@@ -1,0 +1,38 @@
+<data>
+    <include path="..\..\Keys\NextGenEILiteInternalAPI.xml" />
+
+    <values>
+    <maximum-directories-count>30</maximum-directories-count>
+    <max-directory-name-length>30</max-directory-name-length>
+    <max-page-name-length>30</max-page-name-length>
+    <max-post-name-length>150</max-post-name-length>
+    <home-page-name>Emerging Issues Home</home-page-name>
+    <pcr>on</pcr>
+    <pcr-debugging>off</pcr-debugging>
+    <pcr-base-url>https://pcr-content.iso.com/pcr-rest-api/</pcr-base-url>
+    <pcr-insert-url>https://pcr-content.iso.com/pcr-update-api/V2.1/CreateMessage/</pcr-insert-url>
+    <file-storage-api-base-url>http://internal-NG-PC-APP-PR-33f2cb10e6936a-501868876.us-east-1.elb.amazonaws.com/ng-api/filestorage/api/v1/FileStorage/S3/</file-storage-api-base-url>
+    <file-storage-timeout>00:00:01:00</file-storage-timeout>
+    <file-storage-error-image>/src/images/34px_ISO-VIS_globe_KO.png</file-storage-error-image>
+    <topic-post-fix>/topic/{id}</topic-post-fix>
+    <post-post-fix>/homepage/post/{id}</post-post-fix>
+    <landing-post-fix>/page/{id}</landing-post-fix>
+    <weekly-digest-post-fix>/weekly-digest/{id}</weekly-digest-post-fix>
+    <ei-portal-ui>https://nextgen.iso.com/ei</ei-portal-ui>
+    <aws-profile-name>PC-S3-ACCESSID-NP</aws-profile-name>
+    <aws-bucket-name>eilight-prod</aws-bucket-name>
+    <aws-access-key>AKIAIHXQ4HIJQR5FET7A</aws-access-key>
+    <aws-secret-key>76492d1116743f0423413b16050a5345MgB8AEYAdwAvAGcARQBMAHkAWQBqAHkATQBCAGEARgBCACsASQB2AEoAWQBvAEEAPQA9AHwAMwAzADQAMQBjAGIAMwAwADAAMgBjAGUAOQBkADIAMAA2ADkAZgBhADYAZgA5ADUAMQA3AGMAOQBhADcAZAAxAGYAOAA0ADIANAA0ADQAYQBkADIANAA4ADQANAA5ADYAMQAwADAAZAAwADUAMgAxADIAZQA2AGQAYwBhADEAZgBlAGMAYwBkAGUAOQAxAGIAYwA4ADgANgA5ADEAMQA5ADMAMQBlADkAYgA0AGUANQA4ADgAMgBlADIAZABmAGUAMQA3ADIAZAAyADcAZgBkAGIANQAyAGMAZAAwADUAZABmADkANAA2AGEAMwAzAGUANABhAGMAZAAxADUAMAA3ADkANwA5AGQAZQAwAGYAMgA0AGQANwAxADIAMgAwADYAYQA2ADQAYwA5ADkAZgA2ADkAMAA4ADEAYgAyADMAZQAyADYANwA0AGUANABiADcANQA5AGUAZAA4AGEAZQBjADkAYQAxADIAYQAzADQAYwA4ADgAZgA1ADcAYQBhADQA</aws-secret-key>
+    <email-api-url>http://internal-NG-PC-APP-PR-33f2cb10e6936a-501868876.us-east-1.elb.amazonaws.com/ng-api/email/api/v1/SmtpEmailSender</email-api-url>
+    <contact-us-reciever-key>I98037@verisk.com</contact-us-reciever-key>
+    <default-sender-email-key>logged_in_user_email@gmail.com</default-sender-email-key>
+    <serilog-minimum-level>Debug</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:/Logs/EILiteInternalAPI/EILiteInternalAPI-{Date}-write-to-rolling-file-path-format.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>null</serilog-write-to-rolling-file-retained-file-count-limit>
+    <serilog-error>D:/Logs/EILiteInternalAPI/EILiteInternalAPI-{Date}-serilog-error.log</serilog-error>
+    <serilog-audit>D:/Logs/EILiteInternalAPI/EILiteInternalAPI-{Date}-serilog.audit.log</serilog-audit>
+    <serilog-main>D:/Logs/EILiteInternalAPI/EILiteInternalAPI-{Date}-serilog-main.log</serilog-main>
+    <default-connection>76492d1116743f0423413b16050a5345MgB8AE8ATwBDAFEAdAAxAGcAeQBwAEsASwA4AFUAWQBoAFUAOQBTAEoASgBuAHcAPQA9AHwAMgBiAGYAYwAzADUAMwBlADIAMwBjADAAOQBlADYAYgA1AGYAZgA0AGMAZQBiADMAYQBiAGQAMQBiAGYAMQAzADgAZQAzAGEAOQA1AGUANABjAGMAMQBjAGMAYQAyADkANwA2ADUANwA3AGUAOABiADcAYQAwADIAYgBjADEAYgBlAGYANQBiAGUANwBhADIAMQA0ADMAZAA3ADEAMAAzAGQAMAA4ADUAZQA5ADgAMgA0ADgANAAyADUAYQA2ADYANQAwADAAYQBkADkAYwBmADgAOAA5ADEAMwBmAGUAZABjADAAYgA5ADcAZABiAGYAYQBiAGQAZgBiADIAYwAzADUAMAA4ADkAZQBmADMAYgA3ADAAMAAwADUANAA1AGYANAA3ADMAMgA2ADIAOAA5ADMANABlADUANAA3ADYAMQAxADkANABkADIAZAA4AGMAYwBlAGIAMQBmAGEAYgA1ADEAMQA4ADEAOAA1AGIAYQBlADIANQBkADEANABiADMAYwA5AGIANgA3ADIANgA3ADAAMgA1ADQAMgBlAGMAZgA1AGEANQAzAGMANwBiAGQAMwBhAGEAOQAwADYAZABkADIAMgA5ADIAYwBkADcAZQAwAGQANQA5ADQAMwAyADEANgA3ADIAYQA5ADIAYgA5AGEAZQAxAGIAYgA5ADgAMwA3AGMAOAAyAGUANQAyADcAZQAzAGIANAA4ADAAZAA0ADYANgA3ADAAZABlAGEAOQA1ADkAYgAzADUANgAxADUAMwAzADkAZQBiADQAZQA3ADQAYwAyADYAYgBmAGMAZABjADMANQA0AGMAMgA0AGMAMwBjADYANgAzADQAZQAwAGEANwBmADEANwAxADcAMQA5ADcAOABjADYAMwBhAGYAMwBjAGEAZgAxADIAMQAxAGMAZQAyADAAYwAxADcAMwBjAGQAZgBmADgAYgBiAGEAMAA5AGMAZAAxADcAOQBmADEANQA1ADgANgBlADQANwA5ADIAZgAwADcAZgA2ADYAZQAxAGMAOQBkADAAOAA1ADcAZQBhADEAYgA1AGYAYwA0ADEANAAyAGEAYQBhAGIAMgBjADMAMQA2ADQAZABiAGIAYQBiADMAZgBjADgANQBkADkAYwBmADQAYwA0ADAAZAA2ADYANQA4ADIAMwAyADAAZQA2AGUAMQA5ADcAOQBkADIAZQBiADUAMAAxAGYAZAA2AGQANABlAGMAOABhAGEANwBhAGIAZQBjADUAMgBiADAAZgAxAGUAMAA3ADEANgBmAGQANQA2ADgAZABlADMAOQA3ADQAOAA4ADAAOQBjAGEANwAzADQAMAA3ADQAMgAzADAANgBmADUAOAAyAA==</default-connection>
+	
+  </values>
+</data>

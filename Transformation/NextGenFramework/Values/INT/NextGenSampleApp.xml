@@ -1,0 +1,34 @@
+<data>
+    <include path="..\..\Keys\NextGenSampleApp.xml" />
+
+    <values>
+    <webpages-version>3.0.0.0</webpages-version>
+    <webpages-enabled>false</webpages-enabled>
+    <preserve-login-url>true</preserve-login-url>
+    <client-validation-enabled>true</client-validation-enabled>
+    <unobtrusive-java-script-enabled>true</unobtrusive-java-script-enabled>
+    <is-auditing-enabled>true</is-auditing-enabled>
+    <serilog-minimum-level>Debug</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:\Logs\SampleApp\SampleApp-write-to-rolling-file-path-format-{Date}.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>10</serilog-write-to-rolling-file-retained-file-count-limit>
+    <next-gen-identity-server-base-url>http://idt.iso.com/identity</next-gen-identity-server-base-url>
+    <next-gen-sample-app-client-id>SampleApp</next-gen-sample-app-client-id>
+    <next-gen-sample-app-base-url>http://internal-NG-PC-APP-DEV8-d729630efa7d06-1069307972.us-east-1.elb.amazonaws.com/ng-api/sampleapp/</next-gen-sample-app-base-url>
+    <next-gen-file-storage-base-url>http://internal-NG-PC-APP-DEV8-d729630efa7d06-1069307972.us-east-1.elb.amazonaws.com/ng-api/filestorage/</next-gen-file-storage-base-url>
+    <next-gen-email-api-base-url>http://internal-NG-PC-APP-DEV8-d729630efa7d06-1069307972.us-east-1.elb.amazonaws.com/ng-api/email/</next-gen-email-api-base-url>
+    <serilog-error>D:\Logs\SampleApp\SampleApp\SampleApp-Serilog-Error-{Date}.log</serilog-error>
+    <serilog-audit>D:\Logs\SampleApp\SampleApp\SampleApp-Serilog-Audit-{Date}.log</serilog-audit>
+    <serilog-main>D:\Logs\SampleApp\SampleApp\SampleApp-Serilog-Main-{Date}.log</serilog-main>
+    <aws-profile-name>PC-S3-ACCESSID-NP</aws-profile-name>
+    <aws-bucket-name>nextgen-fw-test</aws-bucket-name>
+    <aws-access-key>AKIAJOHGFXKEEUN2MHSA</aws-access-key>
+    <aws-secret-key>76492d1116743f0423413b16050a5345MgB8AFIAQgAxAFoAbQBKAEkAYQBDAE8AZQBlAGsAbwBoAFEAcgBuAGwAZgA3AHcAPQA9AHwAOABjAGYAZgA4AGYANgAzADUANgBkAGIAYQAyADcAMgA3ADYAMwBhAGYAMgBhADkAZgA4ADYAZAAzADQANgBmADQAYQA1ADQANQBhAGYAZAA2ADAANQAxADQAOQA2ADQAOQAzAGQAMQA5ADYAOAAyAGUAOAA0ADQAMgBhADIAYwBkAGMANwAyAGYANgAyADkAYwBmAGQAZQBiADgAOAAxADIAMABiAGUAYgAwADcANAA1ADcAYQAzAGEAYQA1ADUAMAA4AGIAMQAwADkAMwA4ADEAMwAxADkAOQAyADUAMgBiAGYAMwBmAGEANAA2AGQANwBlADYANAA2ADMANwBhADMAOQA0ADUAMwA3AGYAOABlAGQAZgAyADMAZgBkAGIANQAzADUAMwA2ADgAOQAwADYANgA1ADUAOAA0AGIANgA2ADEAZgA3ADAANgAwADUAMQA0ADEAYwBjAGEAMAAzADkAYQBkAGYANgAwADQANQA1ADEAZgAxADMAYwBjAGEA</aws-secret-key>
+    <file-share-path>../TempStorage</file-share-path>
+	<pcr-base-url>pcr-base-url</pcr-base-url>
+	<client-id>ClientId</client-id>
+	<pcr-page-size>10</pcr-page-size>
+	<pcr-search-option>facsimile</pcr-search-option>
+	<master-data-base-url>http://internal-NG-PC-APP-DEV8-d729630efa7d06-1069307972.us-east-1.elb.amazonaws.com/ng-api/masterdata</master-data-base-url>
+	<role-connection>76492d1116743f0423413b16050a5345MgB8AG4AagB3AEUAMAAxAFQAQgBNAE4ATwBNAFAATwBlAEYASQBBAFMAYwB1AGcAPQA9AHwAOAA3ADEAOABiAGEAMgBlAGQAYQBlAGEAOQA3ADcAZgBhADkANgBlAGYAOABlAGMAZAAyADEANgAxADcANQA3AGIAMwA5AGMAYgAyADYAMQA4ADcAMABiAGMANgAzADYAZgAwAGIAYgAyAGEAYQBlADYAYgBkADUAYQA3AGYANQAyADUAYwBlADUANABkADUAYgBmADgAYgBmADQAYgBhADgANQBkADgAOQBlAGUAMwBhADcAMQBlAGEAYgA1AGQANwBkADgAOABmADgAMgBkADEAOAAwADgAOAAyADIAMwBhAGMANwBjADUANwBiAGIANwA2AGUANgAyADQAZgBiADIAMwBhADIAMQA1AGIAZABhAGQAOAA4ADgANAAwADcAYwBiADQANgAwAGUAMABjADMAYQA3ADAAZQBiADMAYgA3ADEAMQA3ADEAOQA2AGQAMwA5ADAAZAA5ADQANwA5AGIAZAA5ADkAOAA1AGIAYQBmADQAZABlADYAYwBlADIAZAA0AGIAYgA4AGYANQAxADMAZgAwAGYAMgA0ADAAOQAyADYAZQAxADQAOQBjAGYAMQBkADMAYQAzADYAZAAzADQAZQAxADEAYgBhADYAMAA1ADkAMQBhADYAYgBlADUAZQBmADEAOQBiAGEAMwBhADQANwBjAGUAMQAwADkAZgA5ADAAYgA0ADMAZQBlADAAMABmADYAMAA0ADMAMwAzADAAOQBiADcAMQAwADEAMwBjADMAZgA2AGIAMAA5AGEAMwBlADcAMwBlAGMAOAA5AGMANQA5ADgAOAA0ADYAZQA1AGUAZAA3ADMAYwA0ADgAOAA2ADcAYQA2AGQAZABiADMAMQBlADkAMAAwADMAYgAwADYANQBkAGEAYwBlAGEANwA4ADMAYQA4AGUANwA3AGYAZAA1AGUAYwA5ADYAZABlAGIAOABhADYAZQA3ADYAYgBmADMAOAAyAGYANQA1ADgAZABkADkAOAAzAGUANAA3ADAAYQA5ADQAMAA4ADIAZQBiADIAZgBiAGQAMgA5ADUANgA5ADUANQAwAGUANQBjADAAMgAyADQANwBjAGEAMQBmAGEAMwAxADkAZQAxADIAYwAwADUAMQA1AGUAZgA1AGEAZAA4ADAAMwBjAGYANQBlADMAMgA5AGIAMgA4ADcANgAwAGUAYgA3AGUAOABhADUAMgA0ADQAZgBmAGEAMAA4AGQAMAA5ADUAZQA3AGMANABhAGQAZAAwADEAMgAwAGEAZgAyADcAMQA3ADIAOQBkAGMAOABkADcAYgA2ADQAMABkAGMAMAA0AGEAMgBhADEANAAzADgAMQBmADAAMgAzAGUAYQAwADQAZgBhADIAMgA0AGIAYgBlADMAZgA2ADEAOQA1ADkAYwAzAGYAMgBhADQAZgBhAGMAOAAzAGUANABiAGMAZQA2ADkAZgA=</role-connection>
+  </values>
+</data>

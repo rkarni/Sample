@@ -1,0 +1,20 @@
+<data>
+  <nodes>
+    <_parameter _name="serilog-minimum-level" _xpath="//configuration/appSettings/add[@key='serilog:minimum-level']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-path-format" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.pathFormat']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-retained-file-count-limit" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.retainedFileCountLimit']/@value" />
+    <_parameter _name="serilog-error" _xpath="//configuration/appSettings/add[@key='Serilog.Error']/@value" />
+    <_parameter _name="serilog-audit" _xpath="//configuration/appSettings/add[@key='Serilog.Audit']/@value" />
+    <_parameter _name="serilog-main" _xpath="//configuration/appSettings/add[@key='Serilog.Main']/@value" />
+    <_parameter _name="mail-default-from-address" _xpath="//configuration/appSettings/add[@key='Mail.DefaultFromAddress']/@value" />
+    <_parameter _name="mail-default-from-display-name" _xpath="//configuration/appSettings/add[@key='Mail.DefaultFromDisplayName']/@value" />
+    <_parameter _name="mail-smtp-host" _xpath="//configuration/appSettings/add[@key='Mail.Smtp.Host']/@value" />
+    <_parameter _name="mail-smtp-port" _xpath="//configuration/appSettings/add[@key='Mail.Smtp.Port']/@value" />
+    <_parameter _name="mail-smtp-user-name" _xpath="//configuration/appSettings/add[@key='Mail.Smtp.UserName']/@value" />
+    <_parameter _name="mail-smtp-password" _xpath="//configuration/appSettings/add[@key='Mail.Smtp.Password']/@value" />
+    <_parameter _name="mail-smtp-domain" _xpath="//configuration/appSettings/add[@key='Mail.Smtp.Domain']/@value" />
+    <_parameter _name="mail-smtp-enable-ssl" _xpath="//configuration/appSettings/add[@key='Mail.Smtp.EnableSsl']/@value" />
+    <_parameter _name="mail-smtp-use-default-credentials" _xpath="//configuration/appSettings/add[@key='Mail.Smtp.UseDefaultCredentials']/@value" />
+  </nodes>
+</data>

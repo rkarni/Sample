@@ -1,0 +1,16 @@
+<data>
+    <include path="..\..\Keys\NextGenAngularClientAPI.xml" />
+
+    <values>
+    <next-gen-identity-server-base-url>http://idq.iso.com/identity</next-gen-identity-server-base-url>
+    <next-gen-angular-client-base-url>http://NG-PC-WEB-DEV7-b6fc5208952705-1596895632.us-east-1.elb.amazonaws.com</next-gen-angular-client-base-url>
+    <master-data-base-url>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/ng-api/masterdata</master-data-base-url>
+    <is-auditing-enabled>true</is-auditing-enabled>
+    <serilog-minimum-level>Debug</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:\Logs\SiteCatalyst\AngularClient-write-to-rolling-file-path-format-{Date}.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>10</serilog-write-to-rolling-file-retained-file-count-limit>
+    <serilog-error>D:\Logs\AngularClient\AngularClient-Serilog-Error-{Date}.log</serilog-error>
+    <serilog-audit>D:\Logs\AngularClient\AngularClient-Serilog-Audit-{Date}.log</serilog-audit>
+    <serilog-main>D:\Logs\AngularClient\AngularClient-Serilog-Main-{Date}.log</serilog-main>
+  </values>
+</data>

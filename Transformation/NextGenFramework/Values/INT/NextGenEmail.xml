@@ -1,0 +1,22 @@
+<data>
+    <include path="..\..\Keys\NextGenEmail.xml" />
+
+    <values>
+    <serilog-minimum-level>Debug</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:\Logs\Email\Email-{Date}.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>10</serilog-write-to-rolling-file-retained-file-count-limit>
+    <serilog-error>D:\Logs\Email\Email-Error-Log-{Date}.log</serilog-error>
+    <serilog-audit>D:\Logs\Email\Email-Audit-Log-{Date}.log</serilog-audit>
+    <serilog-main>D:\Logs\Email\Email-Main-Log-{Date}.log</serilog-main>
+    <mail-default-from-address>noreply_iso@iso.com</mail-default-from-address>
+    <mail-default-from-address>ISO</mail-default-from-address>
+    <mail-smtp-host>ISOSMTPGW.iso.com</mail-smtp-host>
+    <mail-smtp-port>25</mail-smtp-port>
+    <mail-smtp-user-name>noreply_mozart@iso.com</mail-smtp-user-name>
+    <mail-smtp-password></mail-smtp-password>
+    <mail-smtp-domain></mail-smtp-domain>
+    <mail-smtp-enable-ssl>false</mail-smtp-enable-ssl>
+    <mail-smtp-use-default-credentials>true</mail-smtp-use-default-credentials>
+  
+  </values>
+</data>

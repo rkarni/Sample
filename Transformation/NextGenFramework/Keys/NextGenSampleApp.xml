@@ -1,0 +1,35 @@
+<data>
+  <nodes>
+    <_parameter _name="webpages-version" _xpath="//configuration/appSettings/add[@key='webpages:Version']/@value" />
+    <_parameter _name="webpages-enabled" _xpath="//configuration/appSettings/add[@key='webpages:Enabled']/@value" />
+    <_parameter _name="preserve-login-url" _xpath="//configuration/appSettings/add[@key='PreserveLoginUrl']/@value" />
+    <_parameter _name="client-validation-enabled" _xpath="//configuration/appSettings/add[@key='ClientValidationEnabled']/@value" />
+    <_parameter _name="unobtrusive-java-script-enabled" _xpath="//configuration/appSettings/add[@key='UnobtrusiveJavaScriptEnabled']/@value" />
+    <_parameter _name="is-auditing-enabled" _xpath="//configuration/appSettings/add[@key='IsAuditingEnabled']/@value" />
+    <_parameter _name="serilog-minimum-level" _xpath="//configuration/appSettings/add[@key='serilog:minimum-level']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-path-format" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.pathFormat']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-retained-file-count-limit" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.retainedFileCountLimit']/@value" />
+    <_parameter _name="next-gen-identity-server-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.IdentityServer.BaseUrl']/@value" />
+    <_parameter _name="next-gen-sample-app-client-id" _xpath="//configuration/appSettings/add[@key='NextGen.SampleApp.ClientID']/@value" />
+    <_parameter _name="next-gen-sample-app-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.SampleApp.BaseUrl']/@value" />
+    <_parameter _name="next-gen-file-storage-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.FileStorage.BaseUrl']/@value" />
+    <_parameter _name="next-gen-email-api-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.EmailApi.BaseUrl']/@value" />
+    <_parameter _name="serilog-error" _xpath="//configuration/appSettings/add[@key='Serilog.Error']/@value" />
+    <_parameter _name="serilog-audit" _xpath="//configuration/appSettings/add[@key='Serilog.Audit']/@value" />
+    <_parameter _name="serilog-main" _xpath="//configuration/appSettings/add[@key='Serilog.Main']/@value" />
+    <_parameter _name="aws-profile-name" _xpath="//configuration/appSettings/add[@key='AWSProfileName']/@value" />
+    <_parameter _name="aws-bucket-name" _xpath="//configuration/appSettings/add[@key='AWSBucketName']/@value" />
+    <_parameter _name="aws-access-key" _xpath="//configuration/appSettings/add[@key='AWSAccessKey']/@value" />
+    <_parameter _name="aws-secret-key" _xpath="//configuration/appSettings/add[@key='AWSSecretKey']/@value" />
+    <_parameter _name="file-share-path" _xpath="//configuration/appSettings/add[@key='FileSharePath']/@value" />
+	
+	<_parameter _name="pcr-base-url" _xpath="//configuration/appSettings/add[@key='PcrBaseUrl']/@value" />
+	<_parameter _name="client-id" _xpath="//configuration/appSettings/add[@key='ClientId']/@value" />
+	<_parameter _name="pcr-page-size" _xpath="//configuration/appSettings/add[@key='PcrPageSize']/@value" />
+	<_parameter _name="pcr-search-option" _xpath="//configuration/appSettings/add[@key='PcrSearchOption']/@value" />
+	<_parameter _name="master-data-base-url" _xpath="//configuration/appSettings/add[@key='MasterDataBaseUrl']/@value" />
+	<_parameter _name="role-connection" _xpath="//configuration/connectionStrings/add[@name='RoleConnection']/@connectionString" _encrypted="true" />
+	
+  </nodes>
+</data>

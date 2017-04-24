@@ -1,0 +1,15 @@
+version: 0.0
+os: windows
+files:
+  - source: \
+    destination: D:\Artifacts\NextGenEILiteWeb
+hooks:
+  BeforeInstall:
+    - location: \hooks\BackupArtifacts.ps1
+      timeout: 600
+  ApplicationStop:
+    - location: \hooks\stopIIS.bat
+      timeout: 300
+  ApplicationStart:
+    - location: \hooks\startIIS.bat
+      timeout: 600

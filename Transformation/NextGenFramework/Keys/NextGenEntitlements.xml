@@ -1,0 +1,29 @@
+<data>
+  <nodes>
+    <_parameter _name="master-data-base-url" _xpath="//configuration/appSettings/add[@key='MasterData.BaseUrl']/@value" />
+    <_parameter _name="cl-m-srvc-types-url" _xpath="//configuration/appSettings/add[@key='CLM.SrvcTypes.Url']/@value" />
+    <_parameter _name="cl-m-lo-b-url" _xpath="//configuration/appSettings/add[@key='CLM.LoB.Url']/@value" />
+    <_parameter _name="cl-m-juris-url" _xpath="//configuration/appSettings/add[@key='CLM.Juris.Url']/@value" />
+    <_parameter _name="circular-s-srvc-types-url" _xpath="//configuration/appSettings/add[@key='CIRCULARS.SrvcTypes.Url']/@value" />
+    <_parameter _name="circular-s-lo-b-url" _xpath="//configuration/appSettings/add[@key='CIRCULARS.LoB.Url']/@value" />
+    <_parameter _name="circular-s-juris-url" _xpath="//configuration/appSettings/add[@key='CIRCULARS.Juris.Url']/@value" />
+    <_parameter _name="fl-v-srvc-types-url" _xpath="//configuration/appSettings/add[@key='FLV.SrvcTypes.Url']/@value" />
+    <_parameter _name="fl-v-lo-b-url" _xpath="//configuration/appSettings/add[@key='FLV.LoB.Url']/@value" />
+    <_parameter _name="fl-v-personal-lo-b-url" _xpath="//configuration/appSettings/add[@key='FLV.PersonalLoB.Url']/@value" />
+    <_parameter _name="fl-v-juris-url" _xpath="//configuration/appSettings/add[@key='FLV.Juris.Url']/@value" />
+    <_parameter _name="pr-m-srvc-types-url" _xpath="//configuration/appSettings/add[@key='PRM.SrvcTypes.Url']/@value" />
+    <_parameter _name="pr-m-lo-b-url" _xpath="//configuration/appSettings/add[@key='PRM.LoB.Url']/@value" />
+    <_parameter _name="pr-m-juris-url" _xpath="//configuration/appSettings/add[@key='PRM.Juris.Url']/@value" />
+    <_parameter _name="form-s-lo-b-url" _xpath="//configuration/appSettings/add[@key='FORMS.LoB.Url']/@value" />
+    <_parameter _name="form-s-juris-url" _xpath="//configuration/appSettings/add[@key='FORMS.Juris.Url']/@value" />
+    <_parameter _name="lmo-n-lo-b-url" _xpath="//configuration/appSettings/add[@key='LMON.LoB.Url']/@value" />
+    <_parameter _name="is-auditing-enabled" _xpath="//configuration/appSettings/add[@key='IsAuditingEnabled']/@value" />
+    <_parameter _name="serilog-minimum-level" _xpath="//configuration/appSettings/add[@key='serilog:minimum-level']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-path-format" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.pathFormat']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-retained-file-count-limit" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.retainedFileCountLimit']/@value" />
+    <_parameter _name="serilog-error" _xpath="//configuration/appSettings/add[@key='Serilog.Error']/@value" />
+    <_parameter _name="serilog-audit" _xpath="//configuration/appSettings/add[@key='Serilog.Audit']/@value" />
+    <_parameter _name="serilog-main" _xpath="//configuration/appSettings/add[@key='Serilog.Main']/@value" />
+  </nodes>
+</data>

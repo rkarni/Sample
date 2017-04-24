@@ -1,0 +1,20 @@
+<data>
+    <include path="..\..\Keys\NextGenEIPortalExternalAPI.xml" />
+
+    <values>
+    <origin-base-url>*</origin-base-url>
+    <internal-api-url>http://internal-NG-PC-APP-DEV8-d729630efa7d06-1069307972.us-east-1.elb.amazonaws.com/ei-internal</internal-api-url>
+    <next-gen-identity-server-base-url>http://idt.iso.com/identity</next-gen-identity-server-base-url>
+    <redis-cache-enabled>true</redis-cache-enabled>
+    <redis-cache-expiration>00:00:01:00</redis-cache-expiration>
+    <next-gen-eligibility-base-url>http://internal-NG-PC-APP-DEV8-d729630efa7d06-1069307972.us-east-1.elb.amazonaws.com/ng-api/eligibility/api/v1/Eligibility</next-gen-eligibility-base-url>
+    <product-id>272</product-id>
+    <serilog-minimum-level>Debug</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:/Logs/EILiteInternalAPI/EILiteInternalAPI-{Date}-write-to-rolling-file-path-format.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>null</serilog-write-to-rolling-file-retained-file-count-limit>
+    <serilog-error>D:/Logs/EILiteInternalAPI/EILiteInternalAPI-{Date}-serilog-error.log</serilog-error>
+    <serilog-audit>D:/Logs/EILiteInternalAPI/EILiteInternalAPI-{Date}-serilog.audit.log</serilog-audit>
+    <serilog-main>D:/Logs/EILiteInternalAPI/EILiteInternalAPI-{Date}-serilog-main.log</serilog-main>
+	<redis-cache>76492d1116743f0423413b16050a5345MgB8AEwAVQAxAEcAdwBYAG8AVQBUADUATgA5AGIAcwBoAE8AOQBrAEsAcwAyAGcAPQA9AHwAZgBiADIAYQA4ADEAYwAyADYANABjADgAOQA3AGQAZAAyADkANQBkADEAMwAzADEAOABhADUAZQBhADAAMABiAGUAMwBiADEANAA4AGIAYgA4AGMAYQBiADEAZABlAGMAMgBiADMAMwA1ADAAMgAyADgAZAAwADMAMgBjADgANAA5AGMAMgAxADUAZQAyADcAMABlADgAZAA1ADAAMQA2ADQAMQA5AGUANgAyAGYANABiADQAMwA4AGYANwBmADQAZQAwAGIAOAA3AGEAMAA0AGEAMwAwADgAZgBmAGUAMABlAGMAYgA5AGUAYQBmADEAOAAzAGUAMgAxADIAYQBmADcAOQBmAGYANwBiAGEAYQBkADEAYwA5ADYAOAAwADAANQBiADMANgA4ADIANQBlAGQAOAA4ADkAOAA2AGQAYQBjAGMANQBiADkAZQA3AGMAMQBkAGQAMQA2ADcAZABlAGQANAA3AGUAMQBiADQAYQAzADQAOAA4ADgAYgAyAGIAZAA1ADUANwA2AGUAYgA0AGIANgBjADUAZQBlADgAOABhAGEANgA0AGIAOQBmADIAZgAzADMAZQBiADYAZAA2AA==</redis-cache>
+  </values>
+</data>

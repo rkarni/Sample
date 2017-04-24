@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <include path="..\..\Keys\NextGenFLVExternalAPI.xml" />
+
+    <values>
+        <serilog-write-to-rolling-file-path-format>D:\Logs\FLVClient-{Date}.txt</serilog-write-to-rolling-file-path-format>
+		<serilog-error>D:\Logs\flv-Error-Log-{Date}.log</serilog-error>
+		<serilog-audit>D:\Logs\flv-Audit-Log-{Date}.log</serilog-audit>
+		<serilog-main>D:\Logs\Main-Log-{Date}.log</serilog-main>
+		<master-data-commercial-lob-url>http://internal-NG-PC-APP-A-e181384735cc1d-1996121736.us-east-1.elb.amazonaws.com/ng-api/masterdata/api/v1/MasterData/LineOfBusinesses/FLV</master-data-commercial-lob-url>
+		<master-data-personal-lob-url>http://internal-NG-PC-APP-A-e181384735cc1d-1996121736.us-east-1.elb.amazonaws.com/ng-api/masterdata/api/v1/MasterData/PersonalLineOfBusinesses/FLV</master-data-personal-lob-url>
+		<user-entitled-personal-lob-url>http://internal-NG-PC-APP-A-e181384735cc1d-1996121736.us-east-1.elb.amazonaws.com/ng-api/entitlements/api/v1/Entitlements/UserEntitledPersonalLoBs/FLV/{isoTicket}</user-entitled-personal-lob-url>
+		<user-entitled-commercial-lob-url>http://internal-NG-PC-APP-A-e181384735cc1d-1996121736.us-east-1.elb.amazonaws.com/ng-api/entitlements/api/v1/Entitlements/UserEntitledLinesOfBusinesses/FLV/{isoTicket}</user-entitled-commercial-lob-url>
+		<master-data-jurisdictions-url>http://internal-NG-PC-APP-A-e181384735cc1d-1996121736.us-east-1.elb.amazonaws.com/ng-api/masterdata/api/v1/MasterData/Jurisdictions/FLV</master-data-jurisdictions-url>
+		<master-data-service-types-url>http://internal-NG-PC-APP-A-e181384735cc1d-1996121736.us-east-1.elb.amazonaws.com/ng-api/masterdata/api/v1/MasterData/ServiceTypes/FLV</master-data-service-types-url>
+		<user-entitled-service-types-url>http://internal-NG-PC-APP-A-e181384735cc1d-1996121736.us-east-1.elb.amazonaws.com/ng-api/entitlements/api/v1/Entitlements/UserEntitledServiceTypes/FLV/{isoTicket}</user-entitled-service-types-url>
+		<user-entitled-jurisdictions-url>http://internal-NG-PC-APP-A-e181384735cc1d-1996121736.us-east-1.elb.amazonaws.com/ng-api/entitlements/api/v1/Entitlements/UserEntitledJurisdictions/FLV/</user-entitled-jurisdictions-url>
+        <identity-server-base-url>https://id-a.iso.com/identity</identity-server-base-url>
+        <webapi-base-url>http://internal-NG-PC-APP-A-e181384735cc1d-1996121736.us-east-1.elb.amazonaws.com/flv-internal/</webapi-base-url>		
+		<verisk-next-gen-iso-product-eligibility-srvc>http://internal-NG-PC-APP-A-e181384735cc1d-1996121736.us-east-1.elb.amazonaws.com/ng-api/eligibility/api/v1/Eligibility/CheckProductAccess/</verisk-next-gen-iso-product-eligibility-srvc>
+		<verisk-fl-v-product-id>291</verisk-fl-v-product-id>
+		<redis-cache>76492d1116743f0423413b16050a5345MgB8AG8AOQA5ADIAQwB6AFcAUQBrAHoAZABmAFEAKwB0AFYAegBBAEYAcgB4AFEAPQA9AHwAMwA2ADkAZAA4AGIAMgBkADAAZQAxADIAZgA5AGYAOAA2AGIAMwA2AGQANgAxADMAMwBhADgAOAA0AGYAMQA3AGUANwA4AGMANQA0AGEAMgA4AGEAOQBiADMAMQBkADMAMgA5AGQAZQA2ADgAZgAzAGQANgA3ADAAYQBlADgAYgA4AGUAYwA1AGQAOAA3AGQAZAAxADkANgA3ADIAMwA2ADIAZQA3ADgAMwA3ADMAYwBjAGYAYwBjADYAMQBlADAAZQA1ADAAYQBiAGUAOAAyAGEAMwA3ADMAMAAwADMAYQAyADcANgA2AGUAZgBhAGEAOQA1AGEAYwBmADMAYwA1AGMAMgBlAGYAMwA4AGUAMgAzADgAYwBiADAAZABkAGQAZQAyADYAYQA5ADQANgAzAGYANQA3ADgAYgAxADQAZQA4AGIANAAwAGMAYgAyADEAZgA3ADcAMAA2ADYANwA1ADAANAA0ADgAYgBjADgANgBlAGUAZQAwADMAYQA1ADAAMABiADEAMwBlAGMAOQAwAGIAYwBhADAAOQBmADQAMgAxAGEAYQA4ADcAZgA3ADkAZgBjADkAMQAzAGIAMQA2AGUAYwAyADcAOAA4AGMAZAA0ADYAZQAzAGYAMwBkAGUAMAA5ADAAMQA2ADAANgAzAGMAMQAwAGMANgBlAGEAZgA=</redis-cache>
+    </values>
+</data>

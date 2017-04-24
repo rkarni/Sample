@@ -1,0 +1,19 @@
+<data>
+  <nodes>
+    <_parameter _name="origin-base-url" _xpath="//configuration/appSettings/add[@key='OriginBaseUrl']/@value" />
+    <_parameter _name="internal-api-url" _xpath="//configuration/appSettings/add[@key='InternalApiUrl']/@value" />
+    <_parameter _name="next-gen-identity-server-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.IdentityServer.BaseUrl']/@value" />
+    <_parameter _name="redis-cache-enabled" _xpath="//configuration/appSettings/add[@key='RedisCacheEnabled']/@value" />
+    <_parameter _name="redis-cache-expiration" _xpath="//configuration/appSettings/add[@key='RedisCacheExpiration']/@value" />
+    <_parameter _name="next-gen-eligibility-base-url" _xpath="//configuration/appSettings/add[@key='NextGen.Eligibility.BaseUrl']/@value" />
+    <_parameter _name="product-id" _xpath="//configuration/appSettings/add[@key='ProductId']/@value" />
+    <_parameter _name="serilog-minimum-level" _xpath="//configuration/appSettings/add[@key='serilog:minimum-level']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-path-format" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.pathFormat']/@value" />
+    <_parameter _name="serilog-write-to-rolling-file-retained-file-count-limit" _xpath="//configuration/appSettings/add[@key='serilog:write-to:RollingFile.retainedFileCountLimit']/@value" />
+    <_parameter _name="serilog-error" _xpath="//configuration/appSettings/add[@key='Serilog.Error']/@value" />
+    <_parameter _name="serilog-audit" _xpath="//configuration/appSettings/add[@key='Serilog.Audit']/@value" />
+    <_parameter _name="serilog-main" _xpath="//configuration/appSettings/add[@key='Serilog.Main']/@value" />
+	<_parameter _name="redis-cache" _xpath="//configuration/connectionStrings/add[@name='Redis.Cache']/@connectionString" _encrypted="true" />
+  </nodes>
+</data>

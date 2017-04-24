@@ -1,0 +1,16 @@
+<data>
+    <include path="..\..\Keys\NextGenEligibility.xml" />
+
+    <values>
+    <verisk-next-gen-iso-product-eligibility-srvc>https://isonetsvca.iso.com/isousersvc/</verisk-next-gen-iso-product-eligibility-srvc>
+    <verisk-next-gen-iso-authentication-srvc>https://isonetsvca.iso.com/isoAuthSvc/</verisk-next-gen-iso-authentication-srvc>
+    <verisk-next-gen-iso-entitlements-srvc>https://isonetsvca.iso.com/formaccesssvc/</verisk-next-gen-iso-entitlements-srvc>
+    <is-auditing-enabled>true</is-auditing-enabled>
+    <serilog-minimum-level>Debug</serilog-minimum-level>
+    <serilog-write-to-rolling-file-path-format>D:\Logs\Eligibility\Eligibility-RollingFilePathFormat\Eligibility-{Date}.log</serilog-write-to-rolling-file-path-format>
+    <serilog-write-to-rolling-file-retained-file-count-limit>10</serilog-write-to-rolling-file-retained-file-count-limit>
+    <serilog-error>D:\Logs\Eligibility\Eligibility-Error-Log-{Date}.log</serilog-error>
+    <serilog-audit>D:\Logs\Eligibility\Eligibility-Audit-Log-{Date}.log</serilog-audit>
+    <serilog-main>D:\Logs\Eligibility\Eligibility-Main-Log-{Date}.log</serilog-main>
+  </values>
+</data>

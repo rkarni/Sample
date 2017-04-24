@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <include path="..\..\Keys\NextGenPCWeb.xml" />
+
+    <values>
+		<webpages-enabled>false</webpages-enabled>
+		<serilog-write-to-rolling-file-path-format>D:\Logs\product-center-{Date}.txt</serilog-write-to-rolling-file-path-format>
+		<serilog-write-to-rolling-file-retained-file-count-limit>10</serilog-write-to-rolling-file-retained-file-count-limit>
+		<serilog-error>D:\Logs\product-center-Error-Log-{Date}.log</serilog-error>
+		<serilog-audit>D:\Logs\product-center-Audit-Log-{Date}.log</serilog-audit>
+		<serilog-main>D:\Logs\product-center-Main-Log-{Date}.log</serilog-main>
+		<product-center-base-url>https://isoq.iso.com/</product-center-base-url>
+		<next-gen-identity-server-base-url>https://idq.iso.com/identity</next-gen-identity-server-base-url>
+		<next-gen-pc-dev-clien-id>NextgenWeb</next-gen-pc-dev-clien-id>
+		<filesharepath>../Uploads/Images</filesharepath>
+		<webapi-base-url>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/pc-api/</webapi-base-url>
+		<phone>1-800-888-4476</phone>
+		<phone-international>800 48977 489</phone-international>
+		<email>ISOnet@verisk.com</email>
+		<globalsearchurl>https://www3a2.iso.com/isonetglobalsearchpcr_epm</globalsearchurl>
+		<surveyurl>http://www.surveygizmo.com/s3/3211841/ISOnet-Product-Center-Live</surveyurl>
+		<globalsearchvideourl>https://d28eqi2akun05r.cloudfront.net/ISONet_NextGen/GlobalSearch/story.html</globalsearchvideourl>
+		<productcentervideourl>https://d2usz79irzz4sy.cloudfront.net/ISONet_NextGen/ProductCenter/story.html</productcentervideourl>
+		<isoeducationurl>https://isoeducation.verisk.com/ISOEducation/</isoeducationurl>
+		<globalsearch-recentsearchurl>https://isonetsvca.iso.com/isousersvc/</globalsearch-recentsearchurl>
+		<globalsearch-get-all-user-search-keywords>retrieveUserSetting/{0}/{1}/globalsearch/LastSearch</globalsearch-get-all-user-search-keywords>
+		<globalsearch-clear-all-recent-searches>DeleteUserAttribute/{0}/{1}/globalsearch/LastSearch</globalsearch-clear-all-recent-searches>
+		<globalsearch-clear-recent-searches-by-id>deleteUserSettingWithBase64EncodedValue/{0}/{1}/globalsearch/LastSearch/{2}</globalsearch-clear-recent-searches-by-id>
+		<next-gen-file-storage-base-url>http://internal-NG-PC-APP-DEV7-QA-1991149523.us-east-1.elb.amazonaws.com/ng-api/filestorage/api/v1/FileStorage/</next-gen-file-storage-base-url>
+		<aws-profile-name>PC-S3-ACCESSID-NP</aws-profile-name>
+		<aws-bucket-name>productcenter-qa</aws-bucket-name>
+		<aws-access-key>AKIAJOHGFXKEEUN2MHSA</aws-access-key>
+		<aws-secret-key>76492d1116743f0423413b16050a5345MgB8AFIAQgAxAFoAbQBKAEkAYQBDAE8AZQBlAGsAbwBoAFEAcgBuAGwAZgA3AHcAPQA9AHwAOABjAGYAZgA4AGYANgAzADUANgBkAGIAYQAyADcAMgA3ADYAMwBhAGYAMgBhADkAZgA4ADYAZAAzADQANgBmADQAYQA1ADQANQBhAGYAZAA2ADAANQAxADQAOQA2ADQAOQAzAGQAMQA5ADYAOAAyAGUAOAA0ADQAMgBhADIAYwBkAGMANwAyAGYANgAyADkAYwBmAGQAZQBiADgAOAAxADIAMABiAGUAYgAwADcANAA1ADcAYQAzAGEAYQA1ADUAMAA4AGIAMQAwADkAMwA4ADEAMwAxADkAOQAyADUAMgBiAGYAMwBmAGEANAA2AGQANwBlADYANAA2ADMANwBhADMAOQA0ADUAMwA3AGYAOABlAGQAZgAyADMAZgBkAGIANQAzADUAMwA2ADgAOQAwADYANgA1ADUAOAA0AGIANgA2ADEAZgA3ADAANgAwADUAMQA0ADEAYwBjAGEAMAAzADkAYQBkAGYANgAwADQANQA1ADEAZgAxADMAYwBjAGEA</aws-secret-key>
+		<master-data-cache-expriation-time-in-hrs>5</master-data-cache-expriation-time-in-hrs>
+		<iso-eligible-product-cache-expriation-time-in-hrs>5</iso-eligible-product-cache-expriation-time-in-hrs>
+		<published-panels-cache-expriation-time-in-hrs>5</published-panels-cache-expriation-time-in-hrs>
+		<published-products-of-user-cache-expriation-time-in-hrs>5</published-products-of-user-cache-expriation-time-in-hrs>
+		<site-catalyst-fa-products-cache-expriation-time-in-hrs>5</site-catalyst-fa-products-cache-expriation-time-in-hrs>
+		<ticker-cache-expiry-time>5</ticker-cache-expiry-time>
+		<site-cat-user-name>vtadepalli:verisk</site-cat-user-name>
+		<site-cat-secret-key>137796751663a8df990f02c390779251</site-cat-secret-key>
+		<site-cat-omini-api>https://api.omniture.com</site-cat-omini-api>
+		<site-cat-selector>vtadepalli</site-cat-selector>
+		<site-cat-data-past-days>7</site-cat-data-past-days>
+		<site-cat-report-suite-id>veriskcircdev</site-cat-report-suite-id>
+		<default-connection>76492d1116743f0423413b16050a5345MgB8ADgAMgB2AHgAbABsADEAZgAzAGwAQQAxACsARgBTAHUAaQAxAEUARwBWAEEAPQA9AHwAMQAzAGYANQA4ADgANQA2AGYAMgA3ADQAZAA2ADYAMwAwAGEANwBmADQAZQBlADYANwBlADkAMgBmADEAMwAwADgAOAAzADYANAA5AGYANwAzADIAMAA2ADYANgA3AGEANgAxAGMANwA0AGIAYgBhADAAYgA1AGYAOAA3ADMAMQA5AGUAOQBhADQAYQA3ADkAMgAzAGEANABkADcAZQA4ADUANwBiADMAZgAyAGIANgA4AGUAMwA0AGMAYQA2ADcAMAA4ADcAMgA3ADcAZgBlADkAMgA5AGQAZABkADUAZgAzADkAYwA0ADMAYgBmADEAMwBmADQAZAAxAGIAYwA4AGQAZAA4ADYANQBlAGQAZAA0AGEANwA2AGUAOABiADUAMgAyAGEAZQBmADUANAAwAGUAYwAyADgANwAxADEAYQA2AGEAOQAyAGQANgBmADMAYQA1ADUANAAxAGIANQA4ADcAYQA5ADAAOABiAGUAYQAzADYAOQBkAGEAMgA0AGEAZgBhADcAMABjADEAZgBmAGMAMQAzADIAYwA0ADQANQAzADIAYQAyAGQANQBhADYAMABkADAAMQAyADgAOQA3ADkAMwBkADUAMwA0ADYAMQBjADQAZQAxAGUANgA5AGIAOAAzADgAMwA4ADkAZQAyAGEAOABmADAAZgBjADAANQA2ADgAZgBlADgAYwA2AGQAYwBmADUAYgBmAGUAZABkADgAZgBjADEAZgA0AGUAOQA2ADEANwBmADEANwA0ADIAMABiAGUAOQBjADIAMQBmAGEANQBiADkANQA5ADkANABkADgAYQA5ADYAMAAwADUANwA1ADIANgAyAGMAZAAyAGQAMQBlADYAOQAwAGYAMgA1AGYAZgBkADUAOAA1ADAAMwAwAGUAZgAxADEAMABkADMAMAA5AGQANQBmAGIANAA3AGQAMwBlADEAOAAxAGEAZAA1AGUAYgBhAGUAZQA0ADIAYwA1AGQAMgAwAGUAMAAxAGMAYwA2ADEAOAAzADMAZABjAGMAOQAwAGMAZAA3AGUAZgA4AGUANwAwAGYAOQBhAGEAZgA3ADMANgA0ADUAYgAxADMAOQAzAGMAMgAzADIAMQA0AGQAYwAxADEAMABjADEANQBiAGEAMQBkADYANgA4ADEAZAAzADIANwBmADYAZQA0ADIANAA4ADIAYQBiAGYAOABkADgAZQBjADkAZQA0ADAAMwA4ADQAOAA2AGEAYwA1AGQAOABiADkANwBmADgAOQA3ADYAYgAzAGIAZAAxADQAMQA2AGYANAA2ADAAZQAzAGQAMwAxAGQAYgA5AGQAMgAwAGEAMwBiAGQAMQAxADMAMwAxADQAZAAyAA==</default-connection>
+		<redis-cache>76492d1116743f0423413b16050a5345MgB8AGQAUABXAGQAMwBDAFYAcABZAEwAeAByADQAMQBuAEQAVQA1AFIAeQA4AHcAPQA9AHwAMgA4ADgAZAA4ADUAZAAzADgAYwAyADkAZAAxADMAYgAzADcANgBlADkAYQA5AGMANABhAGUAOQBmAGQAMgA3ADkAMABiADMAOQBiAGIAMwA4AGEAMQA1ADgAZgBmAGIAMwA0ADcANwAwAGQAMwAwAGIAYwAxADkANwA2AGUAMABjADQAMwBiADUAZABjADkAZQBlAGYANwBmADQANgAyADIAYQA3ADQAMwA4ADAAMgAxAGUAZgAwAGEAZQBiAGYANQAwADQAMQA2ADcAYQA4ADQAOQBkAGYANABkAGIAZAA5AGIAMAA1AGEAOABkADcANwA3ADAAZgBmADcAZQBlADEAZgA3ADgAZABkADIANQBhAGYAOQBmADgANQBkADcAZgA2ADAAMgAyADgAMgAzADEAYgAwADgAZgAwADAAMgAwADkAZQA2ADIAZABlAGIAMwBlADQAYQAwADkAMAAxADEAOQA5ADMAMABhAGIANwAyADcAYgAxAGYAYgAxADkANwBhADcAZgAxADIAZQAxAGYANgBmADYAOQA0ADUAYgBlAGMAYwBmAGUAZgBhAGIAYQBiADUAYwA5ADQAZAA5AA==</redis-cache>
+	</values>
+</data>
